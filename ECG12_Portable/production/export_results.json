@@ -1,0 +1,50 @@
+[
+  {
+    "output": "gerbers",
+    "returncode": 0
+  },
+  {
+    "output": "drills",
+    "returncode": 0
+  },
+  {
+    "output": "positions",
+    "returncode": 0
+  },
+  {
+    "output": "bom",
+    "returncode": 0
+  },
+  {
+    "output": "schematic",
+    "returncode": 0
+  },
+  {
+    "output": "fabrication",
+    "returncode": 0
+  },
+  {
+    "output": "assembly_front",
+    "returncode": 0
+  },
+  {
+    "output": "assembly_back",
+    "returncode": 0
+  },
+  {
+    "output": "copper_front",
+    "returncode": 0
+  },
+  {
+    "output": "copper_back",
+    "returncode": 0
+  },
+  {
+    "output": "ground_plane",
+    "returncode": 0
+  },
+  {
+    "output": "electrical_test",
+    "returncode": 0
+  }
+]

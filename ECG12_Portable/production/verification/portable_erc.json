@@ -1,0 +1,195 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-07T14:07:50",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.1",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/8f6ec4cb-1883-5e62-9a65-0f788e549067",
+            "violations": []
+        },
+        {
+            "path": "/Inputs/",
+            "uuid_path": "/8f6ec4cb-1883-5e62-9a65-0f788e549067/b6490151-45c6-5c4d-ba77-975dc9614abd",
+            "violations": []
+        },
+        {
+            "path": "/AFE/",
+            "uuid_path": "/8f6ec4cb-1883-5e62-9a65-0f788e549067/fb58bd2e-6ccc-5206-a828-0241aec919e4",
+            "violations": [
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 17 [TESTP_PACE_OUT1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.6985,
+                                "y": 0.8128
+                            },
+                            "uuid": "4ae72b0f-bdfb-4ef4-a386-2149745bb2fe"
+                        },
+                        {
+                            "description": "Symbol U4 Pin 5 [OUT, Power output, Line]",
+                            "pos": {
+                                "x": 4.0132,
+                                "y": 0.8001
+                            },
+                            "uuid": "67c590e7-c502-4141-a539-e1e25270dc27"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 18 [TESTP_PACE_OUT2, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.6985,
+                                "y": 0.8382
+                            },
+                            "uuid": "45d23770-3ba5-4419-86da-5b23352c60f9"
+                        },
+                        {
+                            "description": "Symbol U4 Pin 5 [OUT, Power output, Line]",
+                            "pos": {
+                                "x": 4.0132,
+                                "y": 0.8001
+                            },
+                            "uuid": "67c590e7-c502-4141-a539-e1e25270dc27"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 42 [GPIO1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.6985,
+                                "y": 0.889
+                            },
+                            "uuid": "4738169f-4055-4cac-b421-372f52731106"
+                        },
+                        {
+                            "description": "Symbol #FLG3 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 0.9271,
+                                "y": 2.3368
+                            },
+                            "uuid": "1c433191-8cd0-4634-85a1-629d9d0e4386"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 44 [GPIO2, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.6985,
+                                "y": 0.9144
+                            },
+                            "uuid": "972bbe2a-81e3-49c4-bb2f-dd2fa193c22f"
+                        },
+                        {
+                            "description": "Symbol #FLG3 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 0.9271,
+                                "y": 2.3368
+                            },
+                            "uuid": "1c433191-8cd0-4634-85a1-629d9d0e4386"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 45 [GPIO3, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.6985,
+                                "y": 0.9398
+                            },
+                            "uuid": "7de27e2b-631a-430a-94d6-211fd143af03"
+                        },
+                        {
+                            "description": "Symbol #FLG3 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 0.9271,
+                                "y": 2.3368
+                            },
+                            "uuid": "1c433191-8cd0-4634-85a1-629d9d0e4386"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Bidirectional and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 46 [GPIO4, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.6985,
+                                "y": 0.9652
+                            },
+                            "uuid": "bc4bdced-4e84-4bda-8d25-28cfdc1a33fc"
+                        },
+                        {
+                            "description": "Symbol #FLG3 Pin 1 [Power output, Line]",
+                            "pos": {
+                                "x": 0.9271,
+                                "y": 2.3368
+                            },
+                            "uuid": "1c433191-8cd0-4634-85a1-629d9d0e4386"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/Digital/",
+            "uuid_path": "/8f6ec4cb-1883-5e62-9a65-0f788e549067/93ddf0dd-8ad8-52ff-8804-2e1bba8d2134",
+            "violations": []
+        },
+        {
+            "path": "/Power/",
+            "uuid_path": "/8f6ec4cb-1883-5e62-9a65-0f788e549067/d81028a7-b154-5d1b-90b6-a1ac058e2080",
+            "violations": []
+        }
+    ],
+    "source": "ECG12_Portable2.kicad_sch"
+}

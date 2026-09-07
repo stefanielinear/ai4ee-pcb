@@ -1,0 +1,883 @@
+{
+  "source_sha256": "3c9ff7ff7ad7d4d5ffefc86ab4812708870c46e43e12f3ebaf3269fd08ef24cd",
+  "packaged_components": 110,
+  "footprints": 130,
+  "models": [
+    {
+      "ref": "C32",
+      "source_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+      ]
+    },
+    {
+      "ref": "R26",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R39",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C15",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C21",
+      "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+      ]
+    },
+    {
+      "ref": "R12",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R33",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C25",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R41",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R5",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R15",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "TP5",
+      "source_footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "models": []
+    },
+    {
+      "ref": "C1",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "U2",
+      "source_footprint": "RF_Module:Raytac_MDBT42Q",
+      "models": [
+        "${KIPRJMOD}/models/Visual_Envelopes/MDBT42Q_envelope.wrl"
+      ]
+    },
+    {
+      "ref": "D8",
+      "source_footprint": "Diode_SMD:D_SOD-523",
+      "models": [
+        "${KIPRJMOD}/models/Diode_SMD.3dshapes/D_SOD-523.step"
+      ]
+    },
+    {
+      "ref": "D5",
+      "source_footprint": "Diode_SMD:D_SOD-523",
+      "models": [
+        "${KIPRJMOD}/models/Diode_SMD.3dshapes/D_SOD-523.step"
+      ]
+    },
+    {
+      "ref": "J2",
+      "source_footprint": "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+      "models": [
+        "${KIPRJMOD}/models/Visual_Envelopes/HRO_TYPE_C_visual.wrl"
+      ]
+    },
+    {
+      "ref": "R16",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R21",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C10",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C7",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C27",
+      "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+      ]
+    },
+    {
+      "ref": "D22",
+      "source_footprint": "Diode_SMD:D_SOD-523",
+      "models": [
+        "${KIPRJMOD}/models/Diode_SMD.3dshapes/D_SOD-523.step"
+      ]
+    },
+    {
+      "ref": "D6",
+      "source_footprint": "Diode_SMD:D_SOD-523",
+      "models": [
+        "${KIPRJMOD}/models/Diode_SMD.3dshapes/D_SOD-523.step"
+      ]
+    },
+    {
+      "ref": "R3",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "D1",
+      "source_footprint": "Diode_SMD:D_SOD-523",
+      "models": [
+        "${KIPRJMOD}/models/Diode_SMD.3dshapes/D_SOD-523.step"
+      ]
+    },
+    {
+      "ref": "U3",
+      "source_footprint": "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm",
+      "models": [
+        "${KIPRJMOD}/models/Package_DFN_QFN.3dshapes/TQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.step"
+      ]
+    },
+    {
+      "ref": "R10",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "TP1",
+      "source_footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "models": []
+    },
+    {
+      "ref": "R31",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "FID3",
+      "source_footprint": "Fiducial:Fiducial_1mm_Mask2mm",
+      "models": []
+    },
+    {
+      "ref": "R40",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R29",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C11",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C35",
+      "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+      ]
+    },
+    {
+      "ref": "R7",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R28",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "FID1",
+      "source_footprint": "Fiducial:Fiducial_1mm_Mask2mm",
+      "models": []
+    },
+    {
+      "ref": "TP6",
+      "source_footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "models": []
+    },
+    {
+      "ref": "TP3",
+      "source_footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "models": []
+    },
+    {
+      "ref": "R14",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R4",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R6",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C4",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C33",
+      "source_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+      ]
+    },
+    {
+      "ref": "R9",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "J3",
+      "source_footprint": "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical",
+      "models": [
+        "${KIPRJMOD}/models/Connector_JST.3dshapes/JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical.step"
+      ]
+    },
+    {
+      "ref": "R24",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C26",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C31",
+      "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+      ]
+    },
+    {
+      "ref": "FID2",
+      "source_footprint": "Fiducial:Fiducial_1mm_Mask2mm",
+      "models": []
+    },
+    {
+      "ref": "R22",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C12",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C3",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "D10",
+      "source_footprint": "Diode_SMD:D_SOD-523",
+      "models": [
+        "${KIPRJMOD}/models/Diode_SMD.3dshapes/D_SOD-523.step"
+      ]
+    },
+    {
+      "ref": "C29",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "D4",
+      "source_footprint": "Diode_SMD:D_SOD-523",
+      "models": [
+        "${KIPRJMOD}/models/Diode_SMD.3dshapes/D_SOD-523.step"
+      ]
+    },
+    {
+      "ref": "C8",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "TP8",
+      "source_footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "models": []
+    },
+    {
+      "ref": "R1",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C22",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R11",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C18",
+      "source_footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+      ]
+    },
+    {
+      "ref": "C6",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "TP2",
+      "source_footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "models": []
+    },
+    {
+      "ref": "C23",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C19",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "J1",
+      "source_footprint": "Connector_JST:JST_SH_BM10B-SRSS-TB_1x10-1MP_P1.00mm_Vertical",
+      "models": [
+        "${KIPRJMOD}/models/Connector_JST.3dshapes/JST_SH_BM10B-SRSS-TB_1x10-1MP_P1.00mm_Vertical.step"
+      ]
+    },
+    {
+      "ref": "R23",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R18",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C36",
+      "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+      ]
+    },
+    {
+      "ref": "R27",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C16",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "U5",
+      "source_footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "models": [
+        "${KIPRJMOD}/models/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
+      ]
+    },
+    {
+      "ref": "R35",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R32",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "D3",
+      "source_footprint": "Diode_SMD:D_SOD-523",
+      "models": [
+        "${KIPRJMOD}/models/Diode_SMD.3dshapes/D_SOD-523.step"
+      ]
+    },
+    {
+      "ref": "R36",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C9",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "U1",
+      "source_footprint": "Package_QFP:TQFP-64_10x10mm_P0.5mm",
+      "models": [
+        "${KIPRJMOD}/models/Package_QFP.3dshapes/TQFP-64_10x10mm_P0.5mm.step"
+      ]
+    },
+    {
+      "ref": "D23",
+      "source_footprint": "Diode_SMD:D_SOD-523",
+      "models": [
+        "${KIPRJMOD}/models/Diode_SMD.3dshapes/D_SOD-523.step"
+      ]
+    },
+    {
+      "ref": "C34",
+      "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+      ]
+    },
+    {
+      "ref": "R13",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "D20",
+      "source_footprint": "LED_SMD:LED_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/models/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+      ]
+    },
+    {
+      "ref": "C5",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R38",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R37",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C28",
+      "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+      ]
+    },
+    {
+      "ref": "D7",
+      "source_footprint": "Diode_SMD:D_SOD-523",
+      "models": [
+        "${KIPRJMOD}/models/Diode_SMD.3dshapes/D_SOD-523.step"
+      ]
+    },
+    {
+      "ref": "R20",
+      "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+      ]
+    },
+    {
+      "ref": "C14",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C13",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R25",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R8",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "TP4",
+      "source_footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "models": []
+    },
+    {
+      "ref": "U4",
+      "source_footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "models": [
+        "${KIPRJMOD}/models/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
+      ]
+    },
+    {
+      "ref": "C20",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R34",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R17",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C17",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C2",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R2",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "C30",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "R19",
+      "source_footprint": "Resistor_SMD:R_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+      ]
+    },
+    {
+      "ref": "D24",
+      "source_footprint": "Diode_SMD:D_SOD-123F",
+      "models": [
+        "${KIPRJMOD}/models/Diode_SMD.3dshapes/D_SOD-123F.step"
+      ]
+    },
+    {
+      "ref": "R30",
+      "source_footprint": "Resistor_SMD:R_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "D2",
+      "source_footprint": "Diode_SMD:D_SOD-523",
+      "models": [
+        "${KIPRJMOD}/models/Diode_SMD.3dshapes/D_SOD-523.step"
+      ]
+    },
+    {
+      "ref": "D9",
+      "source_footprint": "Diode_SMD:D_SOD-523",
+      "models": [
+        "${KIPRJMOD}/models/Diode_SMD.3dshapes/D_SOD-523.step"
+      ]
+    },
+    {
+      "ref": "C24",
+      "source_footprint": "Capacitor_SMD:C_0402_1005Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+      ]
+    },
+    {
+      "ref": "TP7",
+      "source_footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "models": []
+    },
+    {
+      "ref": "C37",
+      "source_footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "models": [
+        "${KIPRJMOD}/models/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+      ]
+    },
+    {
+      "ref": "TP10",
+      "source_footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "models": []
+    },
+    {
+      "ref": "TP13",
+      "source_footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "models": []
+    },
+    {
+      "ref": "FID4",
+      "source_footprint": "Fiducial:Fiducial_1mm_Mask2mm",
+      "models": []
+    },
+    {
+      "ref": "TP14",
+      "source_footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "models": []
+    },
+    {
+      "ref": "D15",
+      "source_footprint": "Package_TO_SOT_SMD:SOT-23",
+      "models": [
+        "${KIPRJMOD}/models/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ]
+    },
+    {
+      "ref": "FID5",
+      "source_footprint": "Fiducial:Fiducial_1mm_Mask2mm",
+      "models": []
+    },
+    {
+      "ref": "D21",
+      "source_footprint": "Diode_SMD:D_SOD-523",
+      "models": [
+        "${KIPRJMOD}/models/Diode_SMD.3dshapes/D_SOD-523.step"
+      ]
+    },
+    {
+      "ref": "D12",
+      "source_footprint": "Package_TO_SOT_SMD:SOT-23",
+      "models": [
+        "${KIPRJMOD}/models/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ]
+    },
+    {
+      "ref": "D17",
+      "source_footprint": "Package_TO_SOT_SMD:SOT-23",
+      "models": [
+        "${KIPRJMOD}/models/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ]
+    },
+    {
+      "ref": "D18",
+      "source_footprint": "Package_TO_SOT_SMD:SOT-23",
+      "models": [
+        "${KIPRJMOD}/models/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ]
+    },
+    {
+      "ref": "TP12",
+      "source_footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "models": []
+    },
+    {
+      "ref": "D14",
+      "source_footprint": "Package_TO_SOT_SMD:SOT-23",
+      "models": [
+        "${KIPRJMOD}/models/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ]
+    },
+    {
+      "ref": "D11",
+      "source_footprint": "Package_TO_SOT_SMD:SOT-23",
+      "models": [
+        "${KIPRJMOD}/models/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ]
+    },
+    {
+      "ref": "FID6",
+      "source_footprint": "Fiducial:Fiducial_1mm_Mask2mm",
+      "models": []
+    },
+    {
+      "ref": "D19",
+      "source_footprint": "Package_TO_SOT_SMD:SOT-23",
+      "models": [
+        "${KIPRJMOD}/models/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ]
+    },
+    {
+      "ref": "D13",
+      "source_footprint": "Package_TO_SOT_SMD:SOT-23",
+      "models": [
+        "${KIPRJMOD}/models/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ]
+    },
+    {
+      "ref": "TP9",
+      "source_footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "models": []
+    },
+    {
+      "ref": "D16",
+      "source_footprint": "Package_TO_SOT_SMD:SOT-23",
+      "models": [
+        "${KIPRJMOD}/models/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ]
+    },
+    {
+      "ref": "TP11",
+      "source_footprint": "TestPoint:TestPoint_Pad_D1.0mm",
+      "models": []
+    }
+  ],
+  "missing": [],
+  "visual_approximations": {
+    "U2": "Visual_Envelopes/MDBT42Q_envelope.wrl",
+    "J2": "Visual_Envelopes/HRO_TYPE_C_visual.wrl",
+    "U3": "Package_DFN_QFN.3dshapes/TQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.step"
+  }
+}

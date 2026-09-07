@@ -1,0 +1,95 @@
+{
+  "revision": "B",
+  "scenario_not_measurement": true,
+  "method": "Lumped steady-state junction estimate Tj=Ta+P*thetaJA; no enclosure CFD or transient charge model.",
+  "charger": {
+    "ref": "U3",
+    "USB_V": 5.25,
+    "cell_V": 3,
+    "input_envelope_A": 0.1,
+    "simple_charge_path_W": 0.225,
+    "budget_including_path_and_quiescent_W": 0.25,
+    "ambient_C": [
+      25,
+      40,
+      50
+    ],
+    "thetaJA_scenarios_C_per_W": [
+      44.5,
+      120
+    ],
+    "thetaJA_basis": [
+      "Datasheet test board; not calibrated to this PCB",
+      "Unvalidated enclosure sensitivity scenario"
+    ],
+    "EP_vias": [
+      [
+        138.15,
+        131.15
+      ],
+      [
+        138.85,
+        131.85
+      ],
+      [
+        138.85,
+        131.15
+      ],
+      [
+        138.15,
+        131.85
+      ]
+    ],
+    "Tj_C": [
+      {
+        "ambient_C": 25,
+        "thetaJA_C_per_W": 44.5,
+        "Tj_C": 36.125
+      },
+      {
+        "ambient_C": 25,
+        "thetaJA_C_per_W": 120,
+        "Tj_C": 55.0
+      },
+      {
+        "ambient_C": 40,
+        "thetaJA_C_per_W": 44.5,
+        "Tj_C": 51.125
+      },
+      {
+        "ambient_C": 40,
+        "thetaJA_C_per_W": 120,
+        "Tj_C": 70.0
+      },
+      {
+        "ambient_C": 50,
+        "thetaJA_C_per_W": 44.5,
+        "Tj_C": 61.125
+      },
+      {
+        "ambient_C": 50,
+        "thetaJA_C_per_W": 120,
+        "Tj_C": 80.0
+      }
+    ]
+  },
+  "LDOs": [
+    {
+      "ref": "U4",
+      "Vin_V": 4.5,
+      "Vout_V": 3,
+      "allocated_load_mA": 6,
+      "estimated_P_W": 0.009045,
+      "Iq_allowance_A": 1e-05
+    },
+    {
+      "ref": "U5",
+      "Vin_V": 4.5,
+      "Vout_V": 3,
+      "allocated_load_mA": 14,
+      "estimated_P_W": 0.021045,
+      "Iq_allowance_A": 1e-05
+    }
+  ],
+  "prototype_acceptance": "Measure U3 case/board and battery temperature throughout a full charge with NTC bonded to the actual cell and final enclosure. Do not infer product/medical approval."
+}

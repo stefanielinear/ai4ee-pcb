@@ -1,0 +1,8366 @@
+{
+  "kicad_version": "10.0.1",
+  "footprints": 130,
+  "native_pin_count": 390,
+  "pin_net_mismatches": [],
+  "fiducials": [
+    "FID3",
+    "FID1",
+    "FID2",
+    "FID4",
+    "FID5",
+    "FID6"
+  ],
+  "paste_apertures": {
+    "F.Paste": 353,
+    "B.Paste": 29
+  },
+  "filled_capped_vias": [
+    {
+      "xy": [
+        110.362,
+        112.45
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        110.362,
+        119.45
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        120.662,
+        136.0
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        141.4,
+        104.3
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        110.362,
+        122.95
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        138.15,
+        131.15
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        110.362,
+        115.95
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        110.362,
+        136.95
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        132.199999,
+        104.3
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        110.362,
+        129.949999
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        110.362,
+        108.95
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        131.8,
+        116.5
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        129.663,
+        133.5
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        125.05,
+        127.662
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        110.362,
+        133.449999
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        138.85,
+        131.85
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        122.5,
+        143.625
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        138.85,
+        131.15
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        124.55,
+        135.52
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        126.45,
+        133.02
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        126.097,
+        119.684
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        110.362,
+        126.45
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        117.45,
+        135.52
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        133.55,
+        132.52
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        138.15,
+        131.85
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        121.28,
+        112.7
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        124.5,
+        130.35
+      ],
+      "net": "GND"
+    },
+    {
+      "xy": [
+        134.766,
+        135.316
+      ],
+      "net": "VBAT"
+    }
+  ],
+  "ground_vias": [
+    [
+      106.7,
+      129.8
+    ],
+    [
+      110.362,
+      112.45
+    ],
+    [
+      137.975,
+      134.55
+    ],
+    [
+      141.81,
+      128.699999
+    ],
+    [
+      141.0,
+      115.7
+    ],
+    [
+      110.362,
+      119.45
+    ],
+    [
+      120.28,
+      131.05
+    ],
+    [
+      114.046,
+      126.066
+    ],
+    [
+      127.28,
+      131.05
+    ],
+    [
+      114.28,
+      108.0
+    ],
+    [
+      125.3,
+      142.825
+    ],
+    [
+      107.2,
+      126.3
+    ],
+    [
+      120.662,
+      136.0
+    ],
+    [
+      114.28,
+      115.0
+    ],
+    [
+      136.925,
+      119.425
+    ],
+    [
+      141.4,
+      104.3
+    ],
+    [
+      110.362,
+      122.95
+    ],
+    [
+      134.95,
+      130.74
+    ],
+    [
+      143.9,
+      107.5
+    ],
+    [
+      124.28,
+      112.7
+    ],
+    [
+      138.15,
+      131.15
+    ],
+    [
+      142.25,
+      106.125
+    ],
+    [
+      138.8,
+      117.725
+    ],
+    [
+      108.0,
+      122.0
+    ],
+    [
+      110.362,
+      115.95
+    ],
+    [
+      139.01,
+      127.9
+    ],
+    [
+      110.362,
+      136.95
+    ],
+    [
+      133.46,
+      139.53
+    ],
+    [
+      116.28,
+      114.8
+    ],
+    [
+      138.875,
+      112.975
+    ],
+    [
+      122.75,
+      117.538
+    ],
+    [
+      140.05,
+      132.937999
+    ],
+    [
+      121.25,
+      128.862
+    ],
+    [
+      132.199999,
+      104.3
+    ],
+    [
+      114.28,
+      129.0
+    ],
+    [
+      144.35,
+      114.5
+    ],
+    [
+      108.0,
+      118.5
+    ],
+    [
+      133.5,
+      137.0
+    ],
+    [
+      124.28,
+      114.0
+    ],
+    [
+      106.7,
+      136.8
+    ],
+    [
+      125.462,
+      121.75
+    ],
+    [
+      110.362,
+      129.949999
+    ],
+    [
+      110.362,
+      108.95
+    ],
+    [
+      121.8,
+      130.525
+    ],
+    [
+      114.28,
+      132.5
+    ],
+    [
+      125.55,
+      116.338
+    ],
+    [
+      131.8,
+      116.5
+    ],
+    [
+      129.663,
+      133.5
+    ],
+    [
+      127.28,
+      114.0
+    ],
+    [
+      113.48,
+      112.3
+    ],
+    [
+      125.05,
+      127.662
+    ],
+    [
+      120.75,
+      117.538
+    ],
+    [
+      118.75,
+      128.862
+    ],
+    [
+      110.362,
+      133.449999
+    ],
+    [
+      138.85,
+      131.85
+    ],
+    [
+      113.94,
+      119.05
+    ],
+    [
+      106.7,
+      133.3
+    ],
+    [
+      124.862,
+      121.25
+    ],
+    [
+      143.92,
+      141.95
+    ],
+    [
+      122.5,
+      143.625
+    ],
+    [
+      134.15,
+      120.675
+    ],
+    [
+      123.75,
+      117.538
+    ],
+    [
+      138.85,
+      131.15
+    ],
+    [
+      124.55,
+      135.52
+    ],
+    [
+      133.3,
+      122.0
+    ],
+    [
+      126.78,
+      112.7
+    ],
+    [
+      127.23,
+      129.8
+    ],
+    [
+      120.25,
+      128.862
+    ],
+    [
+      126.45,
+      133.02
+    ],
+    [
+      117.48,
+      130.6
+    ],
+    [
+      120.25,
+      115.138
+    ],
+    [
+      127.862,
+      123.25
+    ],
+    [
+      108.0,
+      115.0
+    ],
+    [
+      126.097,
+      119.684
+    ],
+    [
+      114.28,
+      136.0
+    ],
+    [
+      110.362,
+      126.45
+    ],
+    [
+      133.5,
+      141.49
+    ],
+    [
+      106.7,
+      112.3
+    ],
+    [
+      142.85,
+      136.855
+    ],
+    [
+      127.228,
+      126.316
+    ],
+    [
+      117.45,
+      135.52
+    ],
+    [
+      106.966,
+      140.566
+    ],
+    [
+      144.0,
+      121.52
+    ],
+    [
+      133.55,
+      132.52
+    ],
+    [
+      125.45,
+      123.825
+    ],
+    [
+      107.5,
+      108.0
+    ],
+    [
+      114.046,
+      122.566
+    ],
+    [
+      144.35,
+      112.7
+    ],
+    [
+      129.25,
+      118.52
+    ],
+    [
+      144.0,
+      119.49
+    ],
+    [
+      137.75,
+      133.738
+    ],
+    [
+      138.15,
+      131.85
+    ],
+    [
+      121.28,
+      112.7
+    ],
+    [
+      121.28,
+      114.0
+    ],
+    [
+      135.28,
+      141.95
+    ],
+    [
+      120.28,
+      129.8
+    ],
+    [
+      124.5,
+      130.35
+    ],
+    [
+      136.8,
+      117.27
+    ],
+    [
+      134.984,
+      137.421
+    ],
+    [
+      119.31,
+      109.8
+    ]
+  ],
+  "charger_EP_thermal_vias": [
+    [
+      138.15,
+      131.15
+    ],
+    [
+      138.85,
+      131.85
+    ],
+    [
+      138.85,
+      131.15
+    ],
+    [
+      138.15,
+      131.85
+    ]
+  ],
+  "zones": [
+    {
+      "net": "DVDD",
+      "layer": "F.Cu",
+      "polygons": 1,
+      "area_mm2": 4.550805341885
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "polygons": 24,
+      "area_mm2": 1173.1769904292814
+    },
+    {
+      "net": "AVDD",
+      "layer": "F.Cu",
+      "polygons": 1,
+      "area_mm2": 6.25267695612
+    },
+    {
+      "net": "GND",
+      "layer": "B.Cu",
+      "polygons": 3,
+      "area_mm2": 1646.5355460885976
+    },
+    {
+      "net": "GND",
+      "layer": "In1.Cu",
+      "polygons": 1,
+      "area_mm2": 1837.569814163383
+    }
+  ],
+  "keepouts": [
+    {
+      "layers": [
+        "F.Cu"
+      ],
+      "tracks": true,
+      "vias": true,
+      "pads": true,
+      "zone_fills": true
+    },
+    {
+      "layers": [
+        "F.Cu"
+      ],
+      "tracks": true,
+      "vias": true,
+      "pads": true,
+      "zone_fills": true
+    },
+    {
+      "layers": [
+        "B.Cu"
+      ],
+      "tracks": true,
+      "vias": true,
+      "pads": true,
+      "zone_fills": true
+    },
+    {
+      "layers": [
+        "B.Cu"
+      ],
+      "tracks": true,
+      "vias": true,
+      "pads": true,
+      "zone_fills": true
+    },
+    {
+      "layers": [
+        "In1.Cu"
+      ],
+      "tracks": true,
+      "vias": true,
+      "pads": true,
+      "zone_fills": true
+    },
+    {
+      "layers": [
+        "In1.Cu"
+      ],
+      "tracks": true,
+      "vias": true,
+      "pads": true,
+      "zone_fills": true
+    },
+    {
+      "layers": [
+        "In2.Cu"
+      ],
+      "tracks": true,
+      "vias": true,
+      "pads": true,
+      "zone_fills": true
+    },
+    {
+      "layers": [
+        "In2.Cu"
+      ],
+      "tracks": true,
+      "vias": true,
+      "pads": true,
+      "zone_fills": true
+    }
+  ],
+  "components": {
+    "C32": {
+      "xy": [
+        141.75,
+        134.7
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "22u",
+      "fields": {
+        "Reference": "C32",
+        "Value": "22u",
+        "Datasheet": "https://product.tdk.cn/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c2012x5r1e226m125ac_20190710.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "C2012X5R1E226M125AC",
+        "Manufacturer": "TDK",
+        "BOM Comments": "Rev B: 22uF25V X5R0805; 50% bias retention x80% tolerance x85% temperature x80% aging gives 5.984uF. Typical curve only; lot acceptance >=4.7uF effective at operating bias required.",
+        "Voltage": "25V",
+        "Tolerance": "20%"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VSYS",
+          "xy": [
+            141.75,
+            135.65
+          ],
+          "size": [
+            1.0,
+            1.45
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            141.75,
+            133.75
+          ],
+          "size": [
+            1.0,
+            1.45
+          ]
+        }
+      ]
+    },
+    "R26": {
+      "xy": [
+        128.45,
+        122.0
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "10k",
+      "fields": {
+        "Reference": "R26",
+        "Value": "10k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-0710KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "DVDD",
+          "xy": [
+            128.45,
+            122.51
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AFE_CS",
+          "xy": [
+            128.45,
+            121.49
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "R39": {
+      "xy": [
+        140.5,
+        128.7
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "68.1k",
+      "fields": {
+        "Reference": "R39",
+        "Value": "68.1k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-0768K1L",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "Rev B: 68.1k; nominal fast-charge safety timer 9.08h (KTMR=48s/kohm); static tolerance range 6.742-11.464h."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "TMR",
+          "xy": [
+            139.99,
+            128.7
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            141.01,
+            128.7
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "C15": {
+      "xy": [
+        128.45,
+        119.0
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "100n",
+      "fields": {
+        "Reference": "C15",
+        "Value": "100n",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM155R71C104KA88D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "DVDD",
+          "xy": [
+            128.45,
+            119.48
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            128.45,
+            118.52
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "C21": {
+      "xy": [
+        121.0,
+        131.3
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "10u",
+      "fields": {
+        "Reference": "C21",
+        "Value": "10u",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM188R60J106ME47D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VREF",
+          "xy": [
+            121.0,
+            132.075
+          ],
+          "size": [
+            0.9,
+            0.95
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            121.0,
+            130.525
+          ],
+          "size": [
+            0.9,
+            0.95
+          ]
+        }
+      ]
+    },
+    "R12": {
+      "xy": [
+        110.2,
+        118.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R12",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 2"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V3_MID",
+          "xy": [
+            109.69,
+            118.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "V3_F",
+          "xy": [
+            110.71,
+            118.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "R33": {
+      "xy": [
+        143.2,
+        120.0
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "1M",
+      "fields": {
+        "Reference": "R33",
+        "Value": "1M",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-071ML",
+        "Manufacturer": "Yageo",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "BAT_SENSE",
+          "xy": [
+            143.2,
+            120.51
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            143.2,
+            119.49
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "C25": {
+      "xy": [
+        115.8,
+        114.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100p",
+      "fields": {
+        "Reference": "C25",
+        "Value": "100p",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM1555C1H101JA01D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "WCT",
+          "xy": [
+            115.32,
+            114.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            116.28,
+            114.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "R41": {
+      "xy": [
+        138.5,
+        126.8
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "10k",
+      "fields": {
+        "Reference": "R41",
+        "Value": "10k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-0710KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "DVDD",
+          "xy": [
+            137.99,
+            126.8
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "CHG_STAT",
+          "xy": [
+            139.01,
+            126.8
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "R5": {
+      "xy": [
+        108.35,
+        129.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R5",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 1"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "LL",
+          "xy": [
+            107.84,
+            129.0
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "LL_MID",
+          "xy": [
+            108.86,
+            129.0
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "R15": {
+      "xy": [
+        108.35,
+        111.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R15",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 1"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V5",
+          "xy": [
+            107.84,
+            111.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "V5_MID",
+          "xy": [
+            108.86,
+            111.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "TP5": {
+      "xy": [
+        129.5,
+        125.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "MCU_RESET",
+      "fields": {
+        "Reference": "TP5",
+        "Value": "MCU_RESET",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TEST_PAD_1MM",
+        "Manufacturer": "PCB",
+        "BOM Comments": "Pogo contact; external debugger must not be attached during patient connection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "MCU_RESET",
+          "xy": [
+            129.5,
+            125.0
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "C1": {
+      "xy": [
+        113.0,
+        136.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "200p",
+      "fields": {
+        "Reference": "C1",
+        "Value": "200p",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0402C201F5GACTU",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "C0402C201F5GACTU",
+        "Manufacturer": "KEMET",
+        "BOM Comments": "Rev B: C0G, 1%, 50V; same KEMET family. Nominal RA loading compensation retained; system CMRR requires measurement.",
+        "Tolerance": "1%",
+        "Voltage": "50V"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "RA_F",
+          "xy": [
+            112.52,
+            136.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            113.48,
+            136.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "U2": {
+      "xy": [
+        136.0,
+        108.1
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "MDBT42Q-512KV2",
+      "fields": {
+        "Reference": "U2",
+        "Value": "MDBT42Q-512KV2",
+        "Datasheet": "https://www.raytac.com/upload/download_files/38a8a4a0aff945d8484507d60058109b.pdf",
+        "Description": "",
+        "MPN": "MDBT42Q-512KV2",
+        "Manufacturer": "Raytac",
+        "BOM Comments": "LDO mode only; internal LFRC calibrated by BLE stack; DEC4 capacitor internal. Leave DCC/DEC4 externally open. Antenna keepout all copper layers."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "xy": [
+            131.4,
+            104.3
+          ],
+          "size": [
+            1.4,
+            0.8
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "USB_PGOOD",
+          "xy": [
+            131.4,
+            107.3
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "CHG_STAT",
+          "xy": [
+            131.4,
+            108.0
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "4",
+          "net": "unconnected-(U2-P0.27-Pad4)",
+          "xy": [
+            131.4,
+            108.7
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "5",
+          "net": "unconnected-(U2-AIN4{slash}P0.28-Pad5)",
+          "xy": [
+            131.4,
+            109.4
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "6",
+          "net": "unconnected-(U2-AIN5{slash}P0.29-Pad6)",
+          "xy": [
+            131.4,
+            110.1
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "7",
+          "net": "unconnected-(U2-AIN6{slash}P0.30-Pad7)",
+          "xy": [
+            131.4,
+            110.8
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "8",
+          "net": "BAT_SENSE",
+          "xy": [
+            131.4,
+            111.5
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "9",
+          "net": "unconnected-(U2-DEC4-Pad9)",
+          "xy": [
+            131.4,
+            112.2
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "10",
+          "net": "unconnected-(U2-DCC-Pad10)",
+          "xy": [
+            131.4,
+            112.9
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "11",
+          "net": "DVDD",
+          "xy": [
+            131.4,
+            113.6
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "12",
+          "net": "GND",
+          "xy": [
+            131.8,
+            115.7
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "13",
+          "net": "unconnected-(U2-P0.00{slash}XL1-Pad13)",
+          "xy": [
+            132.5,
+            115.7
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "14",
+          "net": "unconnected-(U2-P0.01{slash}XL2-Pad14)",
+          "xy": [
+            133.2,
+            115.7
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "15",
+          "net": "unconnected-(U2-AIN0{slash}P0.02-Pad15)",
+          "xy": [
+            133.9,
+            115.7
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "16",
+          "net": "unconnected-(U2-AIN1{slash}P0.03-Pad16)",
+          "xy": [
+            134.6,
+            115.7
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "17",
+          "net": "unconnected-(U2-AIN2{slash}P0.04-Pad17)",
+          "xy": [
+            135.3,
+            115.7
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "18",
+          "net": "unconnected-(U2-AIN3{slash}P0.05-Pad18)",
+          "xy": [
+            136.0,
+            115.7
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "19",
+          "net": "UART_TX",
+          "xy": [
+            136.7,
+            115.7
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "20",
+          "net": "UART_RX",
+          "xy": [
+            137.4,
+            115.7
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "21",
+          "net": "unconnected-(U2-P0.08-Pad21)",
+          "xy": [
+            138.1,
+            115.7
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "22",
+          "net": "unconnected-(U2-NFC1{slash}P0.09-Pad22)",
+          "xy": [
+            138.8,
+            115.7
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "23",
+          "net": "unconnected-(U2-NFC2{slash}P0.10-Pad23)",
+          "xy": [
+            139.5,
+            115.7
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "24",
+          "net": "GND",
+          "xy": [
+            140.2,
+            115.7
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "25",
+          "net": "MCU_CS",
+          "xy": [
+            140.6,
+            114.3
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "26",
+          "net": "MCU_SCK",
+          "xy": [
+            140.6,
+            113.6
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "27",
+          "net": "MCU_MOSI",
+          "xy": [
+            140.6,
+            112.9
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "28",
+          "net": "AFE_MISO",
+          "xy": [
+            140.6,
+            112.2
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "29",
+          "net": "AFE_DRDY",
+          "xy": [
+            140.6,
+            111.5
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "30",
+          "net": "AFE_RESET",
+          "xy": [
+            140.6,
+            110.8
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "31",
+          "net": "AFE_PWDN",
+          "xy": [
+            140.6,
+            110.1
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "32",
+          "net": "unconnected-(U2-TRACEDATA0{slash}P0.18-Pad32)",
+          "xy": [
+            140.6,
+            109.4
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "33",
+          "net": "unconnected-(U2-P0.19-Pad33)",
+          "xy": [
+            140.6,
+            108.7
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "34",
+          "net": "unconnected-(U2-TRACECLK{slash}P0.20-Pad34)",
+          "xy": [
+            140.6,
+            108.0
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "35",
+          "net": "MCU_RESET",
+          "xy": [
+            140.6,
+            107.3
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "36",
+          "net": "SWDCLK",
+          "xy": [
+            140.6,
+            106.6
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "37",
+          "net": "SWDIO",
+          "xy": [
+            140.6,
+            105.9
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "38",
+          "net": "LED_K",
+          "xy": [
+            140.6,
+            105.2
+          ],
+          "size": [
+            1.4,
+            0.4
+          ]
+        },
+        {
+          "pin": "39",
+          "net": "GND",
+          "xy": [
+            140.6,
+            104.3
+          ],
+          "size": [
+            1.4,
+            0.8
+          ]
+        },
+        {
+          "pin": "40",
+          "net": "unconnected-(U2-P0.24-Pad40)",
+          "xy": [
+            138.9,
+            104.85
+          ],
+          "size": [
+            1.0,
+            0.4
+          ]
+        },
+        {
+          "pin": "41",
+          "net": "unconnected-(U2-P0.23-Pad41)",
+          "xy": [
+            138.9,
+            106.25
+          ],
+          "size": [
+            1.0,
+            0.4
+          ]
+        }
+      ]
+    },
+    "D8": {
+      "xy": [
+        106.0,
+        111.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "TPD1E10B06",
+      "fields": {
+        "Reference": "D8",
+        "Value": "TPD1E10B06",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf",
+        "Description": "",
+        "MPN": "TPD1E10B06DYAR",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": "Connector-side ESD. No defibrillator protection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V5",
+          "xy": [
+            105.3,
+            111.5
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            106.7,
+            111.5
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        }
+      ]
+    },
+    "D5": {
+      "xy": [
+        106.5,
+        122.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "TPD1E10B06",
+      "fields": {
+        "Reference": "D5",
+        "Value": "TPD1E10B06",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf",
+        "Description": "",
+        "MPN": "TPD1E10B06DYAR",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": "Connector-side ESD. No defibrillator protection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V2",
+          "xy": [
+            105.8,
+            122.0
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            107.2,
+            122.0
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        }
+      ]
+    },
+    "J2": {
+      "xy": [
+        138.8,
+        141.81
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "USB-C_CHARGE",
+      "fields": {
+        "Reference": "J2",
+        "Value": "USB-C_CHARGE",
+        "Datasheet": "https://datasheet.lcsc.com/datasheet/pdf/9e56b777c022540fcce7c7f67825f55e.pdf?productCode=C165948",
+        "Description": "",
+        "MPN": "TYPE-C-31-M-12",
+        "Manufacturer": "HRO",
+        "BOM Comments": "Rev B: locating-hole center to bottom PCB edge=5.79mm per manufacturer drawing. Charge only; independent CC Rd. Verify cable/enclosure mating on prototype."
+      },
+      "pads": [
+        {
+          "pin": "",
+          "net": "",
+          "xy": [
+            135.91,
+            139.21
+          ],
+          "size": [
+            0.65,
+            0.65
+          ]
+        },
+        {
+          "pin": "",
+          "net": "",
+          "xy": [
+            141.69,
+            139.21
+          ],
+          "size": [
+            0.65,
+            0.65
+          ]
+        },
+        {
+          "pin": "A1",
+          "net": "GND",
+          "xy": [
+            135.55,
+            137.765
+          ],
+          "size": [
+            0.6,
+            1.45
+          ]
+        },
+        {
+          "pin": "A4",
+          "net": "VBUS",
+          "xy": [
+            136.35,
+            137.765
+          ],
+          "size": [
+            0.6,
+            1.45
+          ]
+        },
+        {
+          "pin": "A5",
+          "net": "CC1",
+          "xy": [
+            137.55,
+            137.765
+          ],
+          "size": [
+            0.3,
+            1.45
+          ]
+        },
+        {
+          "pin": "A6",
+          "net": "unconnected-(J2-D+-PadA6)",
+          "xy": [
+            138.55,
+            137.765
+          ],
+          "size": [
+            0.3,
+            1.45
+          ]
+        },
+        {
+          "pin": "A7",
+          "net": "unconnected-(J2-D--PadA7)",
+          "xy": [
+            139.05,
+            137.765
+          ],
+          "size": [
+            0.3,
+            1.45
+          ]
+        },
+        {
+          "pin": "A8",
+          "net": "unconnected-(J2-SBU1-PadA8)",
+          "xy": [
+            140.05,
+            137.765
+          ],
+          "size": [
+            0.3,
+            1.45
+          ]
+        },
+        {
+          "pin": "A9",
+          "net": "VBUS",
+          "xy": [
+            141.25,
+            137.765
+          ],
+          "size": [
+            0.6,
+            1.45
+          ]
+        },
+        {
+          "pin": "A12",
+          "net": "GND",
+          "xy": [
+            142.05,
+            137.765
+          ],
+          "size": [
+            0.6,
+            1.45
+          ]
+        },
+        {
+          "pin": "B1",
+          "net": "GND",
+          "xy": [
+            142.05,
+            137.765
+          ],
+          "size": [
+            0.6,
+            1.45
+          ]
+        },
+        {
+          "pin": "B4",
+          "net": "VBUS",
+          "xy": [
+            141.25,
+            137.765
+          ],
+          "size": [
+            0.6,
+            1.45
+          ]
+        },
+        {
+          "pin": "B5",
+          "net": "CC2",
+          "xy": [
+            140.55,
+            137.765
+          ],
+          "size": [
+            0.3,
+            1.45
+          ]
+        },
+        {
+          "pin": "B6",
+          "net": "unconnected-(J2-D+-PadB6)",
+          "xy": [
+            139.55,
+            137.765
+          ],
+          "size": [
+            0.3,
+            1.45
+          ]
+        },
+        {
+          "pin": "B7",
+          "net": "unconnected-(J2-D--PadB7)",
+          "xy": [
+            138.05,
+            137.765
+          ],
+          "size": [
+            0.3,
+            1.45
+          ]
+        },
+        {
+          "pin": "B8",
+          "net": "unconnected-(J2-SBU2-PadB8)",
+          "xy": [
+            137.05,
+            137.765
+          ],
+          "size": [
+            0.3,
+            1.45
+          ]
+        },
+        {
+          "pin": "B9",
+          "net": "VBUS",
+          "xy": [
+            136.35,
+            137.765
+          ],
+          "size": [
+            0.6,
+            1.45
+          ]
+        },
+        {
+          "pin": "B12",
+          "net": "GND",
+          "xy": [
+            135.55,
+            137.765
+          ],
+          "size": [
+            0.6,
+            1.45
+          ]
+        },
+        {
+          "pin": "SH",
+          "net": "GND",
+          "xy": [
+            134.48,
+            138.68
+          ],
+          "size": [
+            1.0,
+            2.1
+          ]
+        },
+        {
+          "pin": "SH",
+          "net": "GND",
+          "xy": [
+            134.48,
+            142.86
+          ],
+          "size": [
+            1.0,
+            1.6
+          ]
+        },
+        {
+          "pin": "SH",
+          "net": "GND",
+          "xy": [
+            143.12,
+            138.68
+          ],
+          "size": [
+            1.0,
+            2.1
+          ]
+        },
+        {
+          "pin": "SH",
+          "net": "GND",
+          "xy": [
+            143.12,
+            142.86
+          ],
+          "size": [
+            1.0,
+            1.6
+          ]
+        }
+      ]
+    },
+    "R16": {
+      "xy": [
+        110.45,
+        111.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R16",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 2"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V5_MID",
+          "xy": [
+            109.94,
+            111.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "V5_F",
+          "xy": [
+            110.96,
+            111.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "R21": {
+      "xy": [
+        125.5,
+        111.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100",
+      "fields": {
+        "Reference": "R21",
+        "Value": "100",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-07100RL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "AVDD",
+          "xy": [
+            124.99,
+            111.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AVDD_CP",
+          "xy": [
+            126.01,
+            111.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "C10": {
+      "xy": [
+        119.0,
+        129.8
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100n",
+      "fields": {
+        "Reference": "C10",
+        "Value": "100n",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM155R71C104KA88D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "AVDD",
+          "xy": [
+            118.52,
+            129.8
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            119.48,
+            129.8
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "C7": {
+      "xy": [
+        113.0,
+        115.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "220p",
+      "fields": {
+        "Reference": "C7",
+        "Value": "220p",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0402C221F5GACTU",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "C0402C221F5GACTU",
+        "Manufacturer": "KEMET",
+        "BOM Comments": "Rev B: C0G, 1%, 50V; same KEMET family. Nominal RA loading compensation retained; system CMRR requires measurement.",
+        "Tolerance": "1%",
+        "Voltage": "50V"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V4_F",
+          "xy": [
+            112.52,
+            115.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            113.48,
+            115.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "C27": {
+      "xy": [
+        117.9,
+        112.4
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "1.5n",
+      "fields": {
+        "Reference": "C27",
+        "Value": "1.5n",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM1885C1H152JA01D",
+        "Manufacturer": "Murata",
+        "BOM Comments": "Rev B local RLD compensation parallel to R24. Validate cable/electrode loop stability."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "RLD_OUT",
+          "xy": [
+            117.125,
+            112.4
+          ],
+          "size": [
+            0.9,
+            0.95
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "RLD_INV",
+          "xy": [
+            118.675,
+            112.4
+          ],
+          "size": [
+            0.9,
+            0.95
+          ]
+        }
+      ]
+    },
+    "D22": {
+      "xy": [
+        132.0,
+        138.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "TPD1E10B06",
+      "fields": {
+        "Reference": "D22",
+        "Value": "TPD1E10B06",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf",
+        "Description": "",
+        "MPN": "TPD1E10B06DYAR",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "CC1",
+          "xy": [
+            131.3,
+            138.0
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            132.7,
+            138.0
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        }
+      ]
+    },
+    "D6": {
+      "xy": [
+        106.5,
+        118.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "TPD1E10B06",
+      "fields": {
+        "Reference": "D6",
+        "Value": "TPD1E10B06",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf",
+        "Description": "",
+        "MPN": "TPD1E10B06DYAR",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": "Connector-side ESD. No defibrillator protection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V3",
+          "xy": [
+            105.8,
+            118.5
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            107.2,
+            118.5
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        }
+      ]
+    },
+    "R3": {
+      "xy": [
+        108.35,
+        132.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R3",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 1"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "LA",
+          "xy": [
+            107.84,
+            132.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "LA_MID",
+          "xy": [
+            108.86,
+            132.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "D1": {
+      "xy": [
+        106.0,
+        136.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "TPD1E10B06",
+      "fields": {
+        "Reference": "D1",
+        "Value": "TPD1E10B06",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf",
+        "Description": "",
+        "MPN": "TPD1E10B06DYAR",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": "Connector-side ESD. No defibrillator protection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "RA",
+          "xy": [
+            105.3,
+            136.0
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            106.7,
+            136.0
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        }
+      ]
+    },
+    "U3": {
+      "xy": [
+        138.5,
+        131.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "BQ24074RGTR",
+      "fields": {
+        "Reference": "U3",
+        "Value": "BQ24074RGTR",
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/bq24074.pdf",
+        "Description": "",
+        "KiLib_Generator": "package/no_lead",
+        "MPN": "BQ24074RGTR",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": "USB100 mode: 100mA total input limit. ISET typ 102.77mA; ITERM NC in USB100 =3.3% typ, about3.39mA. External10k NTC required. Four EP thermal vias."
+      },
+      "pads": [
+        {
+          "pin": "",
+          "net": "",
+          "xy": [
+            138.1,
+            131.1
+          ],
+          "size": [
+            0.64,
+            0.64
+          ]
+        },
+        {
+          "pin": "",
+          "net": "",
+          "xy": [
+            138.1,
+            131.9
+          ],
+          "size": [
+            0.64,
+            0.64
+          ]
+        },
+        {
+          "pin": "",
+          "net": "",
+          "xy": [
+            138.9,
+            131.1
+          ],
+          "size": [
+            0.64,
+            0.64
+          ]
+        },
+        {
+          "pin": "",
+          "net": "",
+          "xy": [
+            138.9,
+            131.9
+          ],
+          "size": [
+            0.64,
+            0.64
+          ]
+        },
+        {
+          "pin": "1",
+          "net": "BAT_NTC",
+          "xy": [
+            137.0625,
+            130.75
+          ],
+          "size": [
+            0.875,
+            0.25
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "VBAT",
+          "xy": [
+            137.0625,
+            131.25
+          ],
+          "size": [
+            0.875,
+            0.25
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "VBAT",
+          "xy": [
+            137.0625,
+            131.75
+          ],
+          "size": [
+            0.875,
+            0.25
+          ]
+        },
+        {
+          "pin": "4",
+          "net": "GND",
+          "xy": [
+            137.0625,
+            132.25
+          ],
+          "size": [
+            0.875,
+            0.25
+          ]
+        },
+        {
+          "pin": "5",
+          "net": "GND",
+          "xy": [
+            137.75,
+            132.9375
+          ],
+          "size": [
+            0.25,
+            0.875
+          ]
+        },
+        {
+          "pin": "6",
+          "net": "GND",
+          "xy": [
+            138.25,
+            132.9375
+          ],
+          "size": [
+            0.25,
+            0.875
+          ]
+        },
+        {
+          "pin": "7",
+          "net": "USB_PGOOD",
+          "xy": [
+            138.75,
+            132.9375
+          ],
+          "size": [
+            0.25,
+            0.875
+          ]
+        },
+        {
+          "pin": "8",
+          "net": "GND",
+          "xy": [
+            139.25,
+            132.9375
+          ],
+          "size": [
+            0.25,
+            0.875
+          ]
+        },
+        {
+          "pin": "9",
+          "net": "CHG_STAT",
+          "xy": [
+            139.9375,
+            132.25
+          ],
+          "size": [
+            0.875,
+            0.25
+          ]
+        },
+        {
+          "pin": "10",
+          "net": "VSYS",
+          "xy": [
+            139.9375,
+            131.75
+          ],
+          "size": [
+            0.875,
+            0.25
+          ]
+        },
+        {
+          "pin": "11",
+          "net": "VSYS",
+          "xy": [
+            139.9375,
+            131.25
+          ],
+          "size": [
+            0.875,
+            0.25
+          ]
+        },
+        {
+          "pin": "12",
+          "net": "ILIM",
+          "xy": [
+            139.9375,
+            130.75
+          ],
+          "size": [
+            0.875,
+            0.25
+          ]
+        },
+        {
+          "pin": "13",
+          "net": "VBUS",
+          "xy": [
+            139.25,
+            130.0625
+          ],
+          "size": [
+            0.25,
+            0.875
+          ]
+        },
+        {
+          "pin": "14",
+          "net": "TMR",
+          "xy": [
+            138.75,
+            130.0625
+          ],
+          "size": [
+            0.25,
+            0.875
+          ]
+        },
+        {
+          "pin": "15",
+          "net": "unconnected-(U3-ITERM-Pad15)",
+          "xy": [
+            138.25,
+            130.0625
+          ],
+          "size": [
+            0.25,
+            0.875
+          ]
+        },
+        {
+          "pin": "16",
+          "net": "ISET",
+          "xy": [
+            137.75,
+            130.0625
+          ],
+          "size": [
+            0.25,
+            0.875
+          ]
+        },
+        {
+          "pin": "17",
+          "net": "GND",
+          "xy": [
+            138.5,
+            131.5
+          ],
+          "size": [
+            1.6,
+            1.6
+          ]
+        }
+      ]
+    },
+    "R10": {
+      "xy": [
+        110.2,
+        122.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R10",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 2"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V2_MID",
+          "xy": [
+            109.69,
+            122.0
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "V2_F",
+          "xy": [
+            110.71,
+            122.0
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "TP1": {
+      "xy": [
+        130.25,
+        122.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "DVDD",
+      "fields": {
+        "Reference": "TP1",
+        "Value": "DVDD",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TEST_PAD_1MM",
+        "Manufacturer": "PCB",
+        "BOM Comments": "Pogo contact; external debugger must not be attached during patient connection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "DVDD",
+          "xy": [
+            130.25,
+            122.0
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "R31": {
+      "xy": [
+        140.2,
+        118.0
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "10k",
+      "fields": {
+        "Reference": "R31",
+        "Value": "10k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-0710KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "DVDD",
+          "xy": [
+            140.2,
+            118.51
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "MCU_RESET",
+          "xy": [
+            140.2,
+            117.49
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "FID3": {
+      "xy": [
+        102.5,
+        143.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "FIDUCIAL",
+      "fields": {
+        "Reference": "FID3",
+        "Value": "FIDUCIAL",
+        "Datasheet": "",
+        "Description": "",
+        "KiLib_Generator": "fiducial"
+      },
+      "pads": [
+        {
+          "pin": "",
+          "net": "",
+          "xy": [
+            102.5,
+            143.0
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "R40": {
+      "xy": [
+        140.5,
+        126.8
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "10k",
+      "fields": {
+        "Reference": "R40",
+        "Value": "10k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-0710KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "DVDD",
+          "xy": [
+            139.99,
+            126.8
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "USB_PGOOD",
+          "xy": [
+            141.01,
+            126.8
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "R29": {
+      "xy": [
+        143.2,
+        113.6
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "33",
+      "fields": {
+        "Reference": "R29",
+        "Value": "33",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-0733RL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "Source termination adjacent to MCU; 1-2 MHz SPI."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "MCU_SCK",
+          "xy": [
+            142.69,
+            113.6
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AFE_SCK",
+          "xy": [
+            143.71,
+            113.6
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "C11": {
+      "xy": [
+        117.0,
+        129.8
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100n",
+      "fields": {
+        "Reference": "C11",
+        "Value": "100n",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM155R71C104KA88D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "AVDD",
+          "xy": [
+            116.52,
+            129.8
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            117.48,
+            129.8
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "C35": {
+      "xy": [
+        124.05,
+        136.0
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "4.7u",
+      "fields": {
+        "Reference": "C35",
+        "Value": "4.7u",
+        "Datasheet": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1608x5r1c475k080ac.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "C1608X5R1C475K080AC",
+        "Manufacturer": "TDK",
+        "BOM Comments": "Rev B: 4.7uF16V X5R0603; effective-capacitance characterization included in datasheets/revB; verify lot/DC bias margin.",
+        "Voltage": "16V",
+        "Tolerance": "10%"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "AVDD",
+          "xy": [
+            124.05,
+            136.775
+          ],
+          "size": [
+            0.9,
+            0.95
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            124.05,
+            135.225
+          ],
+          "size": [
+            0.9,
+            0.95
+          ]
+        }
+      ]
+    },
+    "R7": {
+      "xy": [
+        108.85,
+        125.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R7",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 1"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V1",
+          "xy": [
+            108.34,
+            125.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "V1_MID",
+          "xy": [
+            109.36,
+            125.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "R28": {
+      "xy": [
+        143.2,
+        115.4
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "33",
+      "fields": {
+        "Reference": "R28",
+        "Value": "33",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-0733RL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "Source termination adjacent to MCU; 1-2 MHz SPI."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "MCU_CS",
+          "xy": [
+            142.69,
+            115.4
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AFE_CS",
+          "xy": [
+            143.71,
+            115.4
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "FID1": {
+      "xy": [
+        102.5,
+        102.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "FIDUCIAL",
+      "fields": {
+        "Reference": "FID1",
+        "Value": "FIDUCIAL",
+        "Datasheet": "",
+        "Description": "",
+        "KiLib_Generator": "fiducial"
+      },
+      "pads": [
+        {
+          "pin": "",
+          "net": "",
+          "xy": [
+            102.5,
+            102.5
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "TP6": {
+      "xy": [
+        132.5,
+        125.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "UART_TX",
+      "fields": {
+        "Reference": "TP6",
+        "Value": "UART_TX",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TEST_PAD_1MM",
+        "Manufacturer": "PCB",
+        "BOM Comments": "Pogo contact; external debugger must not be attached during patient connection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "UART_TX",
+          "xy": [
+            132.5,
+            125.0
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "TP3": {
+      "xy": [
+        135.5,
+        122.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "SWDCLK",
+      "fields": {
+        "Reference": "TP3",
+        "Value": "SWDCLK",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TEST_PAD_1MM",
+        "Manufacturer": "PCB",
+        "BOM Comments": "Pogo contact; external debugger must not be attached during patient connection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "SWDCLK",
+          "xy": [
+            135.5,
+            122.0
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "R14": {
+      "xy": [
+        110.2,
+        115.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R14",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 2"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V4_MID",
+          "xy": [
+            109.69,
+            115.0
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "V4_F",
+          "xy": [
+            110.71,
+            115.0
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "R4": {
+      "xy": [
+        110.45,
+        132.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R4",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 2"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "LA_MID",
+          "xy": [
+            109.94,
+            132.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "LA_F",
+          "xy": [
+            110.96,
+            132.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "R6": {
+      "xy": [
+        110.45,
+        129.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R6",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 2"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "LL_MID",
+          "xy": [
+            109.94,
+            129.0
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "LL_F",
+          "xy": [
+            110.96,
+            129.0
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "C4": {
+      "xy": [
+        113.0,
+        125.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "220p",
+      "fields": {
+        "Reference": "C4",
+        "Value": "220p",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0402C221F5GACTU",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "C0402C221F5GACTU",
+        "Manufacturer": "KEMET",
+        "BOM Comments": "Rev B: C0G, 1%, 50V; same KEMET family. Nominal RA loading compensation retained; system CMRR requires measurement.",
+        "Tolerance": "1%",
+        "Voltage": "50V"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V1_F",
+          "xy": [
+            112.52,
+            125.5
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            113.48,
+            125.5
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "C33": {
+      "xy": [
+        135.3,
+        134.7
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "22u",
+      "fields": {
+        "Reference": "C33",
+        "Value": "22u",
+        "Datasheet": "https://product.tdk.cn/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c2012x5r1e226m125ac_20190710.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "C2012X5R1E226M125AC",
+        "Manufacturer": "TDK",
+        "BOM Comments": "Rev B: 22uF25V X5R0805; 50% bias retention x80% tolerance x85% temperature x80% aging gives 5.984uF. Typical curve only; lot acceptance >=4.7uF effective at operating bias required.",
+        "Voltage": "25V",
+        "Tolerance": "20%"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VBAT",
+          "xy": [
+            135.3,
+            135.65
+          ],
+          "size": [
+            1.0,
+            1.45
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            135.3,
+            133.75
+          ],
+          "size": [
+            1.0,
+            1.45
+          ]
+        }
+      ]
+    },
+    "R9": {
+      "xy": [
+        108.85,
+        120.75
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R9",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 1"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V2",
+          "xy": [
+            108.34,
+            120.75
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "V2_MID",
+          "xy": [
+            109.36,
+            120.75
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "J3": {
+      "xy": [
+        123.0,
+        141.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "BATTERY_NTC",
+      "fields": {
+        "Reference": "J3",
+        "Value": "BATTERY_NTC",
+        "Datasheet": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+        "Description": "",
+        "KiLib_Generator": "connector/SMD_single_row_plus_mounting_pad",
+        "MPN": "BM04B-SRSS-TB(LF)(SN)",
+        "Manufacturer": "JST",
+        "BOM Comments": "Protected 1S 500mAh cell; 10k 103AT NTC cell coupled. Pin1 +, pin2 -, pin3 NTC, pin4 NTC return."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VBAT",
+          "xy": [
+            121.5,
+            142.825
+          ],
+          "size": [
+            0.6,
+            1.55
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            122.5,
+            142.825
+          ],
+          "size": [
+            0.6,
+            1.55
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "BAT_NTC",
+          "xy": [
+            123.5,
+            142.825
+          ],
+          "size": [
+            0.6,
+            1.55
+          ]
+        },
+        {
+          "pin": "4",
+          "net": "GND",
+          "xy": [
+            124.5,
+            142.825
+          ],
+          "size": [
+            0.6,
+            1.55
+          ]
+        },
+        {
+          "pin": "MP",
+          "net": "",
+          "xy": [
+            120.2,
+            140.3
+          ],
+          "size": [
+            1.2,
+            1.8
+          ]
+        },
+        {
+          "pin": "MP",
+          "net": "",
+          "xy": [
+            125.8,
+            140.3
+          ],
+          "size": [
+            1.2,
+            1.8
+          ]
+        }
+      ]
+    },
+    "R24": {
+      "xy": [
+        117.9,
+        114.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "1M",
+      "fields": {
+        "Reference": "R24",
+        "Value": "1M",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-071ML",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "Rev B local RLD feedback adjacent to U1 pins61/63; keep summing node short."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "RLD_OUT",
+          "xy": [
+            117.39,
+            114.0
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "RLD_INV",
+          "xy": [
+            118.41,
+            114.0
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "C26": {
+      "xy": [
+        114.8,
+        111.0
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "100n",
+      "fields": {
+        "Reference": "C26",
+        "Value": "100n",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM155R71C104KA88D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "RLD_REF",
+          "xy": [
+            114.8,
+            111.48
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            114.8,
+            110.52
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "C31": {
+      "xy": [
+        142.5,
+        130.0
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "4.7u",
+      "fields": {
+        "Reference": "C31",
+        "Value": "4.7u",
+        "Datasheet": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1608x5r1c475k080ac.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "C1608X5R1C475K080AC",
+        "Manufacturer": "TDK",
+        "BOM Comments": "Rev B: 4.7uF16V X5R0603; effective-capacitance characterization included in datasheets/revB; verify lot/DC bias margin.",
+        "Voltage": "16V",
+        "Tolerance": "10%"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VBUS",
+          "xy": [
+            142.5,
+            130.775
+          ],
+          "size": [
+            0.9,
+            0.95
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            142.5,
+            129.225
+          ],
+          "size": [
+            0.9,
+            0.95
+          ]
+        }
+      ]
+    },
+    "FID2": {
+      "xy": [
+        143.7,
+        105.2
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "FIDUCIAL",
+      "fields": {
+        "Reference": "FID2",
+        "Value": "FIDUCIAL",
+        "Datasheet": "",
+        "Description": "",
+        "KiLib_Generator": "fiducial"
+      },
+      "pads": [
+        {
+          "pin": "",
+          "net": "",
+          "xy": [
+            143.7,
+            105.2
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "R22": {
+      "xy": [
+        116.0,
+        106.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R22",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "AVDD",
+          "xy": [
+            115.49,
+            106.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "RLD_REF",
+          "xy": [
+            116.51,
+            106.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "C12": {
+      "xy": [
+        120.0,
+        114.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100n",
+      "fields": {
+        "Reference": "C12",
+        "Value": "100n",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM155R71C104KA88D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "AVDD",
+          "xy": [
+            119.52,
+            114.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            120.48,
+            114.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "C3": {
+      "xy": [
+        113.0,
+        129.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "220p",
+      "fields": {
+        "Reference": "C3",
+        "Value": "220p",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0402C221F5GACTU",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "C0402C221F5GACTU",
+        "Manufacturer": "KEMET",
+        "BOM Comments": "Rev B: C0G, 1%, 50V; same KEMET family. Nominal RA loading compensation retained; system CMRR requires measurement.",
+        "Tolerance": "1%",
+        "Voltage": "50V"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "LL_F",
+          "xy": [
+            112.52,
+            129.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            113.48,
+            129.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "D10": {
+      "xy": [
+        105.7,
+        140.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "TPD1E10B06",
+      "fields": {
+        "Reference": "D10",
+        "Value": "TPD1E10B06",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf",
+        "Description": "",
+        "MPN": "TPD1E10B06DYAR",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "RL",
+          "xy": [
+            105.0,
+            140.0
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            106.4,
+            140.0
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        }
+      ]
+    },
+    "C29": {
+      "xy": [
+        136.0,
+        117.75
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "100n",
+      "fields": {
+        "Reference": "C29",
+        "Value": "100n",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM155R71C104KA88D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "DVDD",
+          "xy": [
+            136.0,
+            118.23
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            136.0,
+            117.27
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "D4": {
+      "xy": [
+        106.5,
+        125.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "TPD1E10B06",
+      "fields": {
+        "Reference": "D4",
+        "Value": "TPD1E10B06",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf",
+        "Description": "",
+        "MPN": "TPD1E10B06DYAR",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": "Connector-side ESD. No defibrillator protection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V1",
+          "xy": [
+            105.8,
+            125.5
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            107.2,
+            125.5
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        }
+      ]
+    },
+    "C8": {
+      "xy": [
+        113.0,
+        111.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "220p",
+      "fields": {
+        "Reference": "C8",
+        "Value": "220p",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0402C221F5GACTU",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "C0402C221F5GACTU",
+        "Manufacturer": "KEMET",
+        "BOM Comments": "Rev B: C0G, 1%, 50V; same KEMET family. Nominal RA loading compensation retained; system CMRR requires measurement.",
+        "Tolerance": "1%",
+        "Voltage": "50V"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V5_F",
+          "xy": [
+            112.52,
+            111.5
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            113.48,
+            111.5
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "TP8": {
+      "xy": [
+        138.5,
+        125.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "AFE_CLK",
+      "fields": {
+        "Reference": "TP8",
+        "Value": "AFE_CLK",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TEST_PAD_1MM",
+        "Manufacturer": "PCB",
+        "BOM Comments": "Pogo contact; external debugger must not be attached during patient connection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "AFE_CLK",
+          "xy": [
+            138.5,
+            125.0
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "R1": {
+      "xy": [
+        108.35,
+        136.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R1",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 1"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "RA",
+          "xy": [
+            107.84,
+            136.0
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "RA_MID",
+          "xy": [
+            108.86,
+            136.0
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "C22": {
+      "xy": [
+        125.95,
+        129.8
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100n",
+      "fields": {
+        "Reference": "C22",
+        "Value": "100n",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM155R71C104KA88D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VREF",
+          "xy": [
+            125.47,
+            129.8
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            126.43,
+            129.8
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "R11": {
+      "xy": [
+        108.85,
+        117.25
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R11",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 1"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V3",
+          "xy": [
+            108.34,
+            117.25
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "V3_MID",
+          "xy": [
+            109.36,
+            117.25
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "C18": {
+      "xy": [
+        123.7,
+        131.3
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "22u",
+      "fields": {
+        "Reference": "C18",
+        "Value": "22u",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM21BR60J226ME39L",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VCAP1",
+          "xy": [
+            123.7,
+            132.25
+          ],
+          "size": [
+            1.0,
+            1.45
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            123.7,
+            130.35
+          ],
+          "size": [
+            1.0,
+            1.45
+          ]
+        }
+      ]
+    },
+    "C6": {
+      "xy": [
+        113.0,
+        118.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "220p",
+      "fields": {
+        "Reference": "C6",
+        "Value": "220p",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0402C221F5GACTU",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "C0402C221F5GACTU",
+        "Manufacturer": "KEMET",
+        "BOM Comments": "Rev B: C0G, 1%, 50V; same KEMET family. Nominal RA loading compensation retained; system CMRR requires measurement.",
+        "Tolerance": "1%",
+        "Voltage": "50V"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V3_F",
+          "xy": [
+            112.52,
+            118.5
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            113.48,
+            118.5
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "TP2": {
+      "xy": [
+        132.5,
+        122.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "GND",
+      "fields": {
+        "Reference": "TP2",
+        "Value": "GND",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TEST_PAD_1MM",
+        "Manufacturer": "PCB",
+        "BOM Comments": "Pogo contact; external debugger must not be attached during patient connection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "xy": [
+            132.5,
+            122.0
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "C23": {
+      "xy": [
+        123.0,
+        114.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100n",
+      "fields": {
+        "Reference": "C23",
+        "Value": "100n",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM155R71C104KA88D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "AVDD_CP",
+          "xy": [
+            122.52,
+            114.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            123.48,
+            114.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "C19": {
+      "xy": [
+        126.0,
+        131.05
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "1u",
+      "fields": {
+        "Reference": "C19",
+        "Value": "1u",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM155R61A105KE15D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VCAP2",
+          "xy": [
+            125.52,
+            131.05
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            126.48,
+            131.05
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "J1": {
+      "xy": [
+        102.4,
+        121.0
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "ELECTRODES",
+      "fields": {
+        "Reference": "J1",
+        "Value": "ELECTRODES",
+        "Datasheet": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+        "Description": "",
+        "KiLib_Generator": "connector/SMD_single_row_plus_mounting_pad",
+        "MPN": "BM10B-SRSS-TB(LF)(SN)",
+        "Manufacturer": "JST",
+        "BOM Comments": "1 RA; 2 LA; 3 LL; 4-9 V1-V6; 10 RL. Keyed external patient cable."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "RA",
+          "xy": [
+            103.725,
+            125.5
+          ],
+          "size": [
+            0.6,
+            1.55
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "LA",
+          "xy": [
+            103.725,
+            124.5
+          ],
+          "size": [
+            0.6,
+            1.55
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "LL",
+          "xy": [
+            103.725,
+            123.5
+          ],
+          "size": [
+            0.6,
+            1.55
+          ]
+        },
+        {
+          "pin": "4",
+          "net": "V1",
+          "xy": [
+            103.725,
+            122.5
+          ],
+          "size": [
+            0.6,
+            1.55
+          ]
+        },
+        {
+          "pin": "5",
+          "net": "V2",
+          "xy": [
+            103.725,
+            121.5
+          ],
+          "size": [
+            0.6,
+            1.55
+          ]
+        },
+        {
+          "pin": "6",
+          "net": "V3",
+          "xy": [
+            103.725,
+            120.5
+          ],
+          "size": [
+            0.6,
+            1.55
+          ]
+        },
+        {
+          "pin": "7",
+          "net": "V4",
+          "xy": [
+            103.725,
+            119.5
+          ],
+          "size": [
+            0.6,
+            1.55
+          ]
+        },
+        {
+          "pin": "8",
+          "net": "V5",
+          "xy": [
+            103.725,
+            118.5
+          ],
+          "size": [
+            0.6,
+            1.55
+          ]
+        },
+        {
+          "pin": "9",
+          "net": "V6",
+          "xy": [
+            103.725,
+            117.5
+          ],
+          "size": [
+            0.6,
+            1.55
+          ]
+        },
+        {
+          "pin": "10",
+          "net": "RL",
+          "xy": [
+            103.725,
+            116.5
+          ],
+          "size": [
+            0.6,
+            1.55
+          ]
+        },
+        {
+          "pin": "MP",
+          "net": "",
+          "xy": [
+            101.2,
+            126.8
+          ],
+          "size": [
+            1.2,
+            1.8
+          ]
+        },
+        {
+          "pin": "MP",
+          "net": "",
+          "xy": [
+            101.2,
+            115.2
+          ],
+          "size": [
+            1.2,
+            1.8
+          ]
+        }
+      ]
+    },
+    "R23": {
+      "xy": [
+        118.0,
+        109.8
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R23",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "RLD_REF",
+          "xy": [
+            117.49,
+            109.8
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            118.51,
+            109.8
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "R18": {
+      "xy": [
+        110.2,
+        108.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R18",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 2"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V6_MID",
+          "xy": [
+            109.69,
+            108.0
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "V6_F",
+          "xy": [
+            110.71,
+            108.0
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "C36": {
+      "xy": [
+        126.95,
+        133.5
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "4.7u",
+      "fields": {
+        "Reference": "C36",
+        "Value": "4.7u",
+        "Datasheet": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1608x5r1c475k080ac.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "C1608X5R1C475K080AC",
+        "Manufacturer": "TDK",
+        "BOM Comments": "Rev B: 4.7uF16V X5R0603; effective-capacitance characterization included in datasheets/revB; verify lot/DC bias margin.",
+        "Voltage": "16V",
+        "Tolerance": "10%"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VSYS",
+          "xy": [
+            126.95,
+            134.275
+          ],
+          "size": [
+            0.9,
+            0.95
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            126.95,
+            132.725
+          ],
+          "size": [
+            0.9,
+            0.95
+          ]
+        }
+      ]
+    },
+    "R27": {
+      "xy": [
+        128.45,
+        127.25
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "10k",
+      "fields": {
+        "Reference": "R27",
+        "Value": "10k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-0710KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "DVDD",
+          "xy": [
+            128.45,
+            127.76
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AFE_PWDN",
+          "xy": [
+            128.45,
+            126.74
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "C16": {
+      "xy": [
+        126.0,
+        114.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100n",
+      "fields": {
+        "Reference": "C16",
+        "Value": "100n",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM155R71C104KA88D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "DVDD",
+          "xy": [
+            125.52,
+            114.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            126.48,
+            114.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "U5": {
+      "xy": [
+        130.0,
+        133.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "TPS7A2030PDBVR",
+      "fields": {
+        "Reference": "U5",
+        "Value": "TPS7A2030PDBVR",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+        "Description": "",
+        "KiLib_Generator": "package/gullwing",
+        "MPN": "TPS7A2030PDBVR",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": "3.0 V fixed low-noise LDO. Pin4 NC."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VSYS",
+          "xy": [
+            128.8625,
+            132.55
+          ],
+          "size": [
+            1.325,
+            0.6
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            128.8625,
+            133.5
+          ],
+          "size": [
+            1.325,
+            0.6
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "VSYS",
+          "xy": [
+            128.8625,
+            134.45
+          ],
+          "size": [
+            1.325,
+            0.6
+          ]
+        },
+        {
+          "pin": "4",
+          "net": "unconnected-(U5-NC-Pad4)",
+          "xy": [
+            131.1375,
+            134.45
+          ],
+          "size": [
+            1.325,
+            0.6
+          ]
+        },
+        {
+          "pin": "5",
+          "net": "DVDD",
+          "xy": [
+            131.1375,
+            132.55
+          ],
+          "size": [
+            1.325,
+            0.6
+          ]
+        }
+      ]
+    },
+    "R35": {
+      "xy": [
+        130.8,
+        140.0
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "5.1k",
+      "fields": {
+        "Reference": "R35",
+        "Value": "5.1k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-075K1L",
+        "Manufacturer": "Yageo",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "CC1",
+          "xy": [
+            130.8,
+            140.51
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            130.8,
+            139.49
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "R32": {
+      "xy": [
+        141.5,
+        120.0
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "1M",
+      "fields": {
+        "Reference": "R32",
+        "Value": "1M",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-071ML",
+        "Manufacturer": "Yageo",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VBAT",
+          "xy": [
+            141.5,
+            120.51
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "BAT_SENSE",
+          "xy": [
+            141.5,
+            119.49
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "D3": {
+      "xy": [
+        106.0,
+        129.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "TPD1E10B06",
+      "fields": {
+        "Reference": "D3",
+        "Value": "TPD1E10B06",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf",
+        "Description": "",
+        "MPN": "TPD1E10B06DYAR",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": "Connector-side ESD. No defibrillator protection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "LL",
+          "xy": [
+            105.3,
+            129.0
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            106.7,
+            129.0
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        }
+      ]
+    },
+    "R36": {
+      "xy": [
+        130.8,
+        142.0
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "5.1k",
+      "fields": {
+        "Reference": "R36",
+        "Value": "5.1k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-075K1L",
+        "Manufacturer": "Yageo",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "CC2",
+          "xy": [
+            130.8,
+            142.51
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            130.8,
+            141.49
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "C9": {
+      "xy": [
+        113.0,
+        108.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "220p",
+      "fields": {
+        "Reference": "C9",
+        "Value": "220p",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0402C221F5GACTU",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "C0402C221F5GACTU",
+        "Manufacturer": "KEMET",
+        "BOM Comments": "Rev B: C0G, 1%, 50V; same KEMET family. Nominal RA loading compensation retained; system CMRR requires measurement.",
+        "Tolerance": "1%",
+        "Voltage": "50V"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V6_F",
+          "xy": [
+            112.52,
+            108.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            113.48,
+            108.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "U1": {
+      "xy": [
+        121.0,
+        122.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "ADS1298IPAG",
+      "fields": {
+        "Reference": "U1",
+        "Value": "ADS1298IPAG",
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/ads1298.pdf",
+        "Description": "",
+        "KiLib_Generator": "package/gullwing",
+        "MPN": "ADS1298IPAG",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": "Gain 6, LP 500 SPS; internal oscillator. START commands via SPI. WCT1=0x09; WCT2=0xC2. Unused GPIO remain inputs."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "WCT",
+          "xy": [
+            115.3375,
+            118.25
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "V6_F",
+          "xy": [
+            115.3375,
+            118.75
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "WCT",
+          "xy": [
+            115.3375,
+            119.25
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "4",
+          "net": "V5_F",
+          "xy": [
+            115.3375,
+            119.75
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "5",
+          "net": "WCT",
+          "xy": [
+            115.3375,
+            120.25
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "6",
+          "net": "V4_F",
+          "xy": [
+            115.3375,
+            120.75
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "7",
+          "net": "WCT",
+          "xy": [
+            115.3375,
+            121.25
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "8",
+          "net": "V3_F",
+          "xy": [
+            115.3375,
+            121.75
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "9",
+          "net": "WCT",
+          "xy": [
+            115.3375,
+            122.25
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "10",
+          "net": "V2_F",
+          "xy": [
+            115.3375,
+            122.75
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "11",
+          "net": "WCT",
+          "xy": [
+            115.3375,
+            123.25
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "12",
+          "net": "V1_F",
+          "xy": [
+            115.3375,
+            123.75
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "13",
+          "net": "RA_F",
+          "xy": [
+            115.3375,
+            124.25
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "14",
+          "net": "LL_F",
+          "xy": [
+            115.3375,
+            124.75
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "15",
+          "net": "RA_F",
+          "xy": [
+            115.3375,
+            125.25
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "16",
+          "net": "LA_F",
+          "xy": [
+            115.3375,
+            125.75
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "17",
+          "net": "AVDD",
+          "xy": [
+            117.25,
+            127.6625
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "18",
+          "net": "AVDD",
+          "xy": [
+            117.75,
+            127.6625
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "19",
+          "net": "AVDD",
+          "xy": [
+            118.25,
+            127.6625
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "20",
+          "net": "GND",
+          "xy": [
+            118.75,
+            127.6625
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "21",
+          "net": "AVDD",
+          "xy": [
+            119.25,
+            127.6625
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "22",
+          "net": "AVDD",
+          "xy": [
+            119.75,
+            127.6625
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "23",
+          "net": "GND",
+          "xy": [
+            120.25,
+            127.6625
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "24",
+          "net": "VREF",
+          "xy": [
+            120.75,
+            127.6625
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "25",
+          "net": "GND",
+          "xy": [
+            121.25,
+            127.6625
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "26",
+          "net": "VCAP4",
+          "xy": [
+            121.75,
+            127.6625
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "27",
+          "net": "unconnected-(U1-NC-Pad27)",
+          "xy": [
+            122.25,
+            127.6625
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "28",
+          "net": "VCAP1",
+          "xy": [
+            122.75,
+            127.6625
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "29",
+          "net": "unconnected-(U1-NC-Pad29)",
+          "xy": [
+            123.25,
+            127.6625
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "30",
+          "net": "VCAP2",
+          "xy": [
+            123.75,
+            127.6625
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "31",
+          "net": "GND",
+          "xy": [
+            124.25,
+            127.6625
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "32",
+          "net": "GND",
+          "xy": [
+            124.75,
+            127.6625
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "33",
+          "net": "GND",
+          "xy": [
+            126.6625,
+            125.75
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "34",
+          "net": "AFE_MOSI",
+          "xy": [
+            126.6625,
+            125.25
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "35",
+          "net": "AFE_PWDN",
+          "xy": [
+            126.6625,
+            124.75
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "36",
+          "net": "AFE_RESET",
+          "xy": [
+            126.6625,
+            124.25
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "37",
+          "net": "AFE_CLK",
+          "xy": [
+            126.6625,
+            123.75
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "38",
+          "net": "GND",
+          "xy": [
+            126.6625,
+            123.25
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "39",
+          "net": "AFE_CS",
+          "xy": [
+            126.6625,
+            122.75
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "40",
+          "net": "AFE_SCK",
+          "xy": [
+            126.6625,
+            122.25
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "41",
+          "net": "GND",
+          "xy": [
+            126.6625,
+            121.75
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "42",
+          "net": "GND",
+          "xy": [
+            126.6625,
+            121.25
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "43",
+          "net": "AFE_MISO",
+          "xy": [
+            126.6625,
+            120.75
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "44",
+          "net": "GND",
+          "xy": [
+            126.6625,
+            120.25
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "45",
+          "net": "GND",
+          "xy": [
+            126.6625,
+            119.75
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "46",
+          "net": "GND",
+          "xy": [
+            126.6625,
+            119.25
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "47",
+          "net": "AFE_DRDY",
+          "xy": [
+            126.6625,
+            118.75
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "48",
+          "net": "DVDD",
+          "xy": [
+            126.6625,
+            118.25
+          ],
+          "size": [
+            1.475,
+            0.3
+          ]
+        },
+        {
+          "pin": "49",
+          "net": "GND",
+          "xy": [
+            124.75,
+            116.3375
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "50",
+          "net": "DVDD",
+          "xy": [
+            124.25,
+            116.3375
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "51",
+          "net": "GND",
+          "xy": [
+            123.75,
+            116.3375
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "52",
+          "net": "DVDD",
+          "xy": [
+            123.25,
+            116.3375
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "53",
+          "net": "GND",
+          "xy": [
+            122.75,
+            116.3375
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "54",
+          "net": "AVDD_CP",
+          "xy": [
+            122.25,
+            116.3375
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "55",
+          "net": "VCAP3",
+          "xy": [
+            121.75,
+            116.3375
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "56",
+          "net": "AVDD",
+          "xy": [
+            121.25,
+            116.3375
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "57",
+          "net": "GND",
+          "xy": [
+            120.75,
+            116.3375
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "58",
+          "net": "GND",
+          "xy": [
+            120.25,
+            116.3375
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "59",
+          "net": "AVDD",
+          "xy": [
+            119.75,
+            116.3375
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "60",
+          "net": "RLD_REF",
+          "xy": [
+            119.25,
+            116.3375
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "61",
+          "net": "RLD_INV",
+          "xy": [
+            118.75,
+            116.3375
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "62",
+          "net": "AVDD",
+          "xy": [
+            118.25,
+            116.3375
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "63",
+          "net": "RLD_OUT",
+          "xy": [
+            117.75,
+            116.3375
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        },
+        {
+          "pin": "64",
+          "net": "WCT",
+          "xy": [
+            117.25,
+            116.3375
+          ],
+          "size": [
+            0.3,
+            1.475
+          ]
+        }
+      ]
+    },
+    "D23": {
+      "xy": [
+        130.8,
+        136.3
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "TPD1E10B06",
+      "fields": {
+        "Reference": "D23",
+        "Value": "TPD1E10B06",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf",
+        "Description": "",
+        "MPN": "TPD1E10B06DYAR",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "CC2",
+          "xy": [
+            130.1,
+            136.3
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            131.5,
+            136.3
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        }
+      ]
+    },
+    "C34": {
+      "xy": [
+        117.95,
+        136.0
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "4.7u",
+      "fields": {
+        "Reference": "C34",
+        "Value": "4.7u",
+        "Datasheet": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1608x5r1c475k080ac.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "C1608X5R1C475K080AC",
+        "Manufacturer": "TDK",
+        "BOM Comments": "Rev B: 4.7uF16V X5R0603; effective-capacitance characterization included in datasheets/revB; verify lot/DC bias margin.",
+        "Voltage": "16V",
+        "Tolerance": "10%"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VSYS",
+          "xy": [
+            117.95,
+            136.775
+          ],
+          "size": [
+            0.9,
+            0.95
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            117.95,
+            135.225
+          ],
+          "size": [
+            0.9,
+            0.95
+          ]
+        }
+      ]
+    },
+    "R13": {
+      "xy": [
+        108.85,
+        113.75
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R13",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 1"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V4",
+          "xy": [
+            108.34,
+            113.75
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "V4_MID",
+          "xy": [
+            109.36,
+            113.75
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "D20": {
+      "xy": [
+        122.5,
+        102.5
+      ],
+      "angle": 180.0,
+      "side": "F.Cu",
+      "value": "GREEN",
+      "fields": {
+        "Reference": "D20",
+        "Value": "GREEN",
+        "Datasheet": "https://optoelectronics.liteon.com/upload/download/DS22-2000-221/LTST-C190KGKT.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "LTST-C190KGKT",
+        "Manufacturer": "Lite-On",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "LED_K",
+          "xy": [
+            123.2875,
+            102.5
+          ],
+          "size": [
+            0.875,
+            0.95
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "LED_A",
+          "xy": [
+            121.7125,
+            102.5
+          ],
+          "size": [
+            0.875,
+            0.95
+          ]
+        }
+      ]
+    },
+    "C5": {
+      "xy": [
+        113.0,
+        122.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "220p",
+      "fields": {
+        "Reference": "C5",
+        "Value": "220p",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0402C221F5GACTU",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "C0402C221F5GACTU",
+        "Manufacturer": "KEMET",
+        "BOM Comments": "Rev B: C0G, 1%, 50V; same KEMET family. Nominal RA loading compensation retained; system CMRR requires measurement.",
+        "Tolerance": "1%",
+        "Voltage": "50V"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V2_F",
+          "xy": [
+            112.52,
+            122.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            113.48,
+            122.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "R38": {
+      "xy": [
+        138.5,
+        128.7
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "8.66k",
+      "fields": {
+        "Reference": "R38",
+        "Value": "8.66k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-078K66L",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "Rev B: 8.66k 1%; max 8.7466k below 8.9k. Programmed ICHG typ 102.77mA; USB100 input still limits total current."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "ISET",
+          "xy": [
+            137.99,
+            128.7
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            139.01,
+            128.7
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "R37": {
+      "xy": [
+        135.75,
+        131.25
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "7.87k",
+      "fields": {
+        "Reference": "R37",
+        "Value": "7.87k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-077K87L",
+        "Manufacturer": "Yageo",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "ILIM",
+          "xy": [
+            135.75,
+            131.76
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            135.75,
+            130.74
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "C28": {
+      "xy": [
+        138.0,
+        118.5
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "10u",
+      "fields": {
+        "Reference": "C28",
+        "Value": "10u",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM188R60J106ME47D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "DVDD",
+          "xy": [
+            138.0,
+            119.275
+          ],
+          "size": [
+            0.9,
+            0.95
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            138.0,
+            117.725
+          ],
+          "size": [
+            0.9,
+            0.95
+          ]
+        }
+      ]
+    },
+    "D7": {
+      "xy": [
+        106.5,
+        115.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "TPD1E10B06",
+      "fields": {
+        "Reference": "D7",
+        "Value": "TPD1E10B06",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf",
+        "Description": "",
+        "MPN": "TPD1E10B06DYAR",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": "Connector-side ESD. No defibrillator protection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V4",
+          "xy": [
+            105.8,
+            115.0
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            107.2,
+            115.0
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        }
+      ]
+    },
+    "R20": {
+      "xy": [
+        108.8,
+        140.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "499k",
+      "fields": {
+        "Reference": "R20",
+        "Value": "499k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0603FR-07499KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "RL_MID",
+          "xy": [
+            107.975,
+            140.0
+          ],
+          "size": [
+            0.8,
+            0.95
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "RL",
+          "xy": [
+            109.625,
+            140.0
+          ],
+          "size": [
+            0.8,
+            0.95
+          ]
+        }
+      ]
+    },
+    "C14": {
+      "xy": [
+        121.0,
+        112.7
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "1u",
+      "fields": {
+        "Reference": "C14",
+        "Value": "1u",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM155R61A105KE15D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "AVDD",
+          "xy": [
+            120.52,
+            112.7
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            121.48,
+            112.7
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "C13": {
+      "xy": [
+        120.6,
+        110.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100n",
+      "fields": {
+        "Reference": "C13",
+        "Value": "100n",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM155R71C104KA88D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "AVDD",
+          "xy": [
+            120.12,
+            110.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            121.08,
+            110.0
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "R25": {
+      "xy": [
+        129.7,
+        127.25
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "10k",
+      "fields": {
+        "Reference": "R25",
+        "Value": "10k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-0710KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "DVDD",
+          "xy": [
+            129.7,
+            127.76
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AFE_RESET",
+          "xy": [
+            129.7,
+            126.74
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "R8": {
+      "xy": [
+        110.95,
+        125.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R8",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 2"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V1_MID",
+          "xy": [
+            110.44,
+            125.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "V1_F",
+          "xy": [
+            111.46,
+            125.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "TP4": {
+      "xy": [
+        138.5,
+        122.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "SWDIO",
+      "fields": {
+        "Reference": "TP4",
+        "Value": "SWDIO",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TEST_PAD_1MM",
+        "Manufacturer": "PCB",
+        "BOM Comments": "Pogo contact; external debugger must not be attached during patient connection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "SWDIO",
+          "xy": [
+            138.5,
+            122.0
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "U4": {
+      "xy": [
+        121.0,
+        136.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "TPS7A2030PDBVR",
+      "fields": {
+        "Reference": "U4",
+        "Value": "TPS7A2030PDBVR",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+        "Description": "",
+        "KiLib_Generator": "package/gullwing",
+        "MPN": "TPS7A2030PDBVR",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": "3.0 V fixed low-noise LDO. Pin4 NC."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VSYS",
+          "xy": [
+            119.8625,
+            135.05
+          ],
+          "size": [
+            1.325,
+            0.6
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            119.8625,
+            136.0
+          ],
+          "size": [
+            1.325,
+            0.6
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "VSYS",
+          "xy": [
+            119.8625,
+            136.95
+          ],
+          "size": [
+            1.325,
+            0.6
+          ]
+        },
+        {
+          "pin": "4",
+          "net": "unconnected-(U4-NC-Pad4)",
+          "xy": [
+            122.1375,
+            136.95
+          ],
+          "size": [
+            1.325,
+            0.6
+          ]
+        },
+        {
+          "pin": "5",
+          "net": "AVDD",
+          "xy": [
+            122.1375,
+            135.05
+          ],
+          "size": [
+            1.325,
+            0.6
+          ]
+        }
+      ]
+    },
+    "C20": {
+      "xy": [
+        123.0,
+        112.7
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "1u",
+      "fields": {
+        "Reference": "C20",
+        "Value": "1u",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM155R61A105KE15D",
+        "Manufacturer": "Murata",
+        "BOM Comments": "Local AFE bypass; VCAP3 rated 10 V for boosted internal node."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VCAP3",
+          "xy": [
+            122.52,
+            112.7
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            123.48,
+            112.7
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "R34": {
+      "xy": [
+        119.5,
+        102.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "1k",
+      "fields": {
+        "Reference": "R34",
+        "Value": "1k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-071KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "DVDD",
+          "xy": [
+            118.99,
+            102.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "LED_A",
+          "xy": [
+            120.01,
+            102.5
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "R17": {
+      "xy": [
+        108.35,
+        106.75
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R17",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 1"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V6",
+          "xy": [
+            107.84,
+            106.75
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "V6_MID",
+          "xy": [
+            108.86,
+            106.75
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "C17": {
+      "xy": [
+        119.0,
+        131.05
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "1u",
+      "fields": {
+        "Reference": "C17",
+        "Value": "1u",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM155R61A105KE15D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VCAP4",
+          "xy": [
+            118.52,
+            131.05
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            119.48,
+            131.05
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "C2": {
+      "xy": [
+        113.0,
+        132.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "220p",
+      "fields": {
+        "Reference": "C2",
+        "Value": "220p",
+        "Datasheet": "https://search.kemet.com/component-documentation/download/specsheet/C0402C221F5GACTU",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "C0402C221F5GACTU",
+        "Manufacturer": "KEMET",
+        "BOM Comments": "Rev B: C0G, 1%, 50V; same KEMET family. Nominal RA loading compensation retained; system CMRR requires measurement.",
+        "Tolerance": "1%",
+        "Voltage": "50V"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "LA_F",
+          "xy": [
+            112.52,
+            132.5
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            113.48,
+            132.5
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "R2": {
+      "xy": [
+        110.45,
+        136.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "100k",
+      "fields": {
+        "Reference": "R2",
+        "Value": "100k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RT0402BRD07100KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "0.1%, 25 ppm/K; electrode current limit stage 2"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "RA_MID",
+          "xy": [
+            109.94,
+            136.0
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "RA_F",
+          "xy": [
+            110.96,
+            136.0
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "C30": {
+      "xy": [
+        143.2,
+        122.0
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "10n",
+      "fields": {
+        "Reference": "C30",
+        "Value": "10n",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM155R71C103KA01D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "BAT_SENSE",
+          "xy": [
+            143.2,
+            122.48
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            143.2,
+            121.52
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "R19": {
+      "xy": [
+        111.9,
+        140.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "499k",
+      "fields": {
+        "Reference": "R19",
+        "Value": "499k",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0603FR-07499KL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "Patient bias current limiting; two independent series resistors."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "RLD_OUT",
+          "xy": [
+            111.075,
+            140.0
+          ],
+          "size": [
+            0.8,
+            0.95
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "RL_MID",
+          "xy": [
+            112.725,
+            140.0
+          ],
+          "size": [
+            0.8,
+            0.95
+          ]
+        }
+      ]
+    },
+    "D24": {
+      "xy": [
+        132.8,
+        128.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "BAT54H",
+      "fields": {
+        "Reference": "D24",
+        "Value": "BAT54H",
+        "Datasheet": "https://assets.nexperia.com/documents/data-sheet/BAT54H.pdf",
+        "Description": "",
+        "MPN": "BAT54H,115",
+        "Manufacturer": "Nexperia",
+        "BOM Comments": "USB PGOOD low inhibits acquisition. This is NOT galvanic isolation."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "USB_PGOOD",
+          "xy": [
+            131.4,
+            128.0
+          ],
+          "size": [
+            1.1,
+            1.1
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AFE_PWDN",
+          "xy": [
+            134.2,
+            128.0
+          ],
+          "size": [
+            1.1,
+            1.1
+          ]
+        }
+      ]
+    },
+    "R30": {
+      "xy": [
+        143.2,
+        111.8
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "33",
+      "fields": {
+        "Reference": "R30",
+        "Value": "33",
+        "Datasheet": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/pyu-rc-group-51.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "RC0402FR-0733RL",
+        "Manufacturer": "Yageo",
+        "BOM Comments": "Source termination adjacent to MCU; 1-2 MHz SPI."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "MCU_MOSI",
+          "xy": [
+            142.69,
+            111.8
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AFE_MOSI",
+          "xy": [
+            143.71,
+            111.8
+          ],
+          "size": [
+            0.54,
+            0.64
+          ]
+        }
+      ]
+    },
+    "D2": {
+      "xy": [
+        106.0,
+        132.5
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "TPD1E10B06",
+      "fields": {
+        "Reference": "D2",
+        "Value": "TPD1E10B06",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf",
+        "Description": "",
+        "MPN": "TPD1E10B06DYAR",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": "Connector-side ESD. No defibrillator protection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "LA",
+          "xy": [
+            105.3,
+            132.5
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            106.7,
+            132.5
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        }
+      ]
+    },
+    "D9": {
+      "xy": [
+        106.0,
+        108.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "TPD1E10B06",
+      "fields": {
+        "Reference": "D9",
+        "Value": "TPD1E10B06",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf",
+        "Description": "",
+        "MPN": "TPD1E10B06DYAR",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": "Connector-side ESD. No defibrillator protection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "V6",
+          "xy": [
+            105.3,
+            108.0
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            106.7,
+            108.0
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        }
+      ]
+    },
+    "C24": {
+      "xy": [
+        125.5,
+        112.7
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "1u",
+      "fields": {
+        "Reference": "C24",
+        "Value": "1u",
+        "Datasheet": "https://www.murata.com/en-us/products/capacitor/ceramiccapacitor",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "GRM155R61A105KE15D",
+        "Manufacturer": "Murata",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "AVDD_CP",
+          "xy": [
+            125.02,
+            112.7
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            125.98,
+            112.7
+          ],
+          "size": [
+            0.56,
+            0.62
+          ]
+        }
+      ]
+    },
+    "TP7": {
+      "xy": [
+        135.5,
+        125.0
+      ],
+      "angle": 0.0,
+      "side": "F.Cu",
+      "value": "UART_RX",
+      "fields": {
+        "Reference": "TP7",
+        "Value": "UART_RX",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TEST_PAD_1MM",
+        "Manufacturer": "PCB",
+        "BOM Comments": "Pogo contact; external debugger must not be attached during patient connection."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "UART_RX",
+          "xy": [
+            135.5,
+            125.0
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "C37": {
+      "xy": [
+        133.05,
+        132.8
+      ],
+      "angle": 90.0,
+      "side": "F.Cu",
+      "value": "4.7u",
+      "fields": {
+        "Reference": "C37",
+        "Value": "4.7u",
+        "Datasheet": "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c1608x5r1c475k080ac.pdf",
+        "Description": "",
+        "KiLib_Generator": "SMD_2terminal_chip_molded",
+        "MPN": "C1608X5R1C475K080AC",
+        "Manufacturer": "TDK",
+        "BOM Comments": "Rev B: 4.7uF16V X5R0603; effective-capacitance characterization included in datasheets/revB; verify lot/DC bias margin.",
+        "Voltage": "16V",
+        "Tolerance": "10%"
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "DVDD",
+          "xy": [
+            133.05,
+            133.575
+          ],
+          "size": [
+            0.9,
+            0.95
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            133.05,
+            132.025
+          ],
+          "size": [
+            0.9,
+            0.95
+          ]
+        }
+      ]
+    },
+    "TP10": {
+      "xy": [
+        129.0,
+        137.0
+      ],
+      "angle": 180.0,
+      "side": "B.Cu",
+      "value": "VSYS",
+      "fields": {
+        "Reference": "TP10",
+        "Value": "VSYS",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TEST_PAD_1MM",
+        "Manufacturer": "PCB",
+        "BOM Comments": "Rev B back-side test contact; use high-Z low-C probe on analog nodes."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VSYS",
+          "xy": [
+            129.0,
+            137.0
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "TP13": {
+      "xy": [
+        117.0,
+        111.0
+      ],
+      "angle": 180.0,
+      "side": "B.Cu",
+      "value": "RLD_REF",
+      "fields": {
+        "Reference": "TP13",
+        "Value": "RLD_REF",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TEST_PAD_1MM",
+        "Manufacturer": "PCB",
+        "BOM Comments": "Rev B back-side test contact; use high-Z low-C probe on analog nodes."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "RLD_REF",
+          "xy": [
+            117.0,
+            111.0
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "FID4": {
+      "xy": [
+        102.5,
+        102.5
+      ],
+      "angle": 180.0,
+      "side": "B.Cu",
+      "value": "FIDUCIAL",
+      "fields": {
+        "Reference": "FID4",
+        "Value": "FIDUCIAL",
+        "Datasheet": "",
+        "Description": "",
+        "KiLib_Generator": "fiducial"
+      },
+      "pads": [
+        {
+          "pin": "",
+          "net": "",
+          "xy": [
+            102.5,
+            102.5
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "TP14": {
+      "xy": [
+        119.0,
+        115.0
+      ],
+      "angle": 180.0,
+      "side": "B.Cu",
+      "value": "RLD_OUT",
+      "fields": {
+        "Reference": "TP14",
+        "Value": "RLD_OUT",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TEST_PAD_1MM",
+        "Manufacturer": "PCB",
+        "BOM Comments": "Rev B back-side test contact; use high-Z low-C probe on analog nodes."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "RLD_OUT",
+          "xy": [
+            119.0,
+            115.0
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "D15": {
+      "xy": [
+        110.5,
+        122.0
+      ],
+      "angle": 0.0,
+      "side": "B.Cu",
+      "value": "BAV199",
+      "fields": {
+        "Reference": "D15",
+        "Value": "BAV199",
+        "Datasheet": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+        "Description": "",
+        "KiLib_Generator": "package/gullwing",
+        "MPN": "BAV199,215",
+        "Manufacturer": "Nexperia",
+        "BOM Comments": "Pin 1 A1=GND; pin 2 K2=AVDD; pin 3 junction=input."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "xy": [
+            109.5625,
+            122.95
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AVDD",
+          "xy": [
+            109.5625,
+            121.05
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "V2_F",
+          "xy": [
+            111.4375,
+            122.0
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        }
+      ]
+    },
+    "FID5": {
+      "xy": [
+        143.7,
+        105.2
+      ],
+      "angle": 180.0,
+      "side": "B.Cu",
+      "value": "FIDUCIAL",
+      "fields": {
+        "Reference": "FID5",
+        "Value": "FIDUCIAL",
+        "Datasheet": "",
+        "Description": "",
+        "KiLib_Generator": "fiducial"
+      },
+      "pads": [
+        {
+          "pin": "",
+          "net": "",
+          "xy": [
+            143.7,
+            105.2
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "D21": {
+      "xy": [
+        139.5,
+        137.9
+      ],
+      "angle": 0.0,
+      "side": "B.Cu",
+      "value": "TPD1E10B06",
+      "fields": {
+        "Reference": "D21",
+        "Value": "TPD1E10B06",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf",
+        "Description": "",
+        "MPN": "TPD1E10B06DYAR",
+        "Manufacturer": "Texas Instruments",
+        "BOM Comments": ""
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VBUS",
+          "xy": [
+            138.8,
+            137.9
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "GND",
+          "xy": [
+            140.2,
+            137.9
+          ],
+          "size": [
+            0.6,
+            0.7
+          ]
+        }
+      ]
+    },
+    "D12": {
+      "xy": [
+        110.5,
+        132.5
+      ],
+      "angle": 0.0,
+      "side": "B.Cu",
+      "value": "BAV199",
+      "fields": {
+        "Reference": "D12",
+        "Value": "BAV199",
+        "Datasheet": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+        "Description": "",
+        "KiLib_Generator": "package/gullwing",
+        "MPN": "BAV199,215",
+        "Manufacturer": "Nexperia",
+        "BOM Comments": "Pin 1 A1=GND; pin 2 K2=AVDD; pin 3 junction=input."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "xy": [
+            109.5625,
+            133.45
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AVDD",
+          "xy": [
+            109.5625,
+            131.55
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "LA_F",
+          "xy": [
+            111.4375,
+            132.5
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        }
+      ]
+    },
+    "D17": {
+      "xy": [
+        110.5,
+        115.0
+      ],
+      "angle": 0.0,
+      "side": "B.Cu",
+      "value": "BAV199",
+      "fields": {
+        "Reference": "D17",
+        "Value": "BAV199",
+        "Datasheet": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+        "Description": "",
+        "KiLib_Generator": "package/gullwing",
+        "MPN": "BAV199,215",
+        "Manufacturer": "Nexperia",
+        "BOM Comments": "Pin 1 A1=GND; pin 2 K2=AVDD; pin 3 junction=input."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "xy": [
+            109.5625,
+            115.95
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AVDD",
+          "xy": [
+            109.5625,
+            114.05
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "V4_F",
+          "xy": [
+            111.4375,
+            115.0
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        }
+      ]
+    },
+    "D18": {
+      "xy": [
+        110.5,
+        111.5
+      ],
+      "angle": 0.0,
+      "side": "B.Cu",
+      "value": "BAV199",
+      "fields": {
+        "Reference": "D18",
+        "Value": "BAV199",
+        "Datasheet": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+        "Description": "",
+        "KiLib_Generator": "package/gullwing",
+        "MPN": "BAV199,215",
+        "Manufacturer": "Nexperia",
+        "BOM Comments": "Pin 1 A1=GND; pin 2 K2=AVDD; pin 3 junction=input."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "xy": [
+            109.5625,
+            112.45
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AVDD",
+          "xy": [
+            109.5625,
+            110.55
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "V5_F",
+          "xy": [
+            111.4375,
+            111.5
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        }
+      ]
+    },
+    "TP12": {
+      "xy": [
+        121.0,
+        133.0
+      ],
+      "angle": 180.0,
+      "side": "B.Cu",
+      "value": "VREF",
+      "fields": {
+        "Reference": "TP12",
+        "Value": "VREF",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TEST_PAD_1MM",
+        "Manufacturer": "PCB",
+        "BOM Comments": "Rev B back-side test contact; use high-Z low-C probe on analog nodes."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VREF",
+          "xy": [
+            121.0,
+            133.0
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "D14": {
+      "xy": [
+        110.5,
+        125.5
+      ],
+      "angle": 0.0,
+      "side": "B.Cu",
+      "value": "BAV199",
+      "fields": {
+        "Reference": "D14",
+        "Value": "BAV199",
+        "Datasheet": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+        "Description": "",
+        "KiLib_Generator": "package/gullwing",
+        "MPN": "BAV199,215",
+        "Manufacturer": "Nexperia",
+        "BOM Comments": "Pin 1 A1=GND; pin 2 K2=AVDD; pin 3 junction=input."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "xy": [
+            109.5625,
+            126.45
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AVDD",
+          "xy": [
+            109.5625,
+            124.55
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "V1_F",
+          "xy": [
+            111.4375,
+            125.5
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        }
+      ]
+    },
+    "D11": {
+      "xy": [
+        110.5,
+        136.0
+      ],
+      "angle": 0.0,
+      "side": "B.Cu",
+      "value": "BAV199",
+      "fields": {
+        "Reference": "D11",
+        "Value": "BAV199",
+        "Datasheet": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+        "Description": "",
+        "KiLib_Generator": "package/gullwing",
+        "MPN": "BAV199,215",
+        "Manufacturer": "Nexperia",
+        "BOM Comments": "Pin 1 A1=GND; pin 2 K2=AVDD; pin 3 junction=input."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "xy": [
+            109.5625,
+            136.95
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AVDD",
+          "xy": [
+            109.5625,
+            135.05
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "RA_F",
+          "xy": [
+            111.4375,
+            136.0
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        }
+      ]
+    },
+    "FID6": {
+      "xy": [
+        102.5,
+        143.0
+      ],
+      "angle": 180.0,
+      "side": "B.Cu",
+      "value": "FIDUCIAL",
+      "fields": {
+        "Reference": "FID6",
+        "Value": "FIDUCIAL",
+        "Datasheet": "",
+        "Description": "",
+        "KiLib_Generator": "fiducial"
+      },
+      "pads": [
+        {
+          "pin": "",
+          "net": "",
+          "xy": [
+            102.5,
+            143.0
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "D19": {
+      "xy": [
+        110.5,
+        108.0
+      ],
+      "angle": 0.0,
+      "side": "B.Cu",
+      "value": "BAV199",
+      "fields": {
+        "Reference": "D19",
+        "Value": "BAV199",
+        "Datasheet": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+        "Description": "",
+        "KiLib_Generator": "package/gullwing",
+        "MPN": "BAV199,215",
+        "Manufacturer": "Nexperia",
+        "BOM Comments": "Pin 1 A1=GND; pin 2 K2=AVDD; pin 3 junction=input."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "xy": [
+            109.5625,
+            108.95
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AVDD",
+          "xy": [
+            109.5625,
+            107.05
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "V6_F",
+          "xy": [
+            111.4375,
+            108.0
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        }
+      ]
+    },
+    "D13": {
+      "xy": [
+        110.5,
+        129.0
+      ],
+      "angle": 0.0,
+      "side": "B.Cu",
+      "value": "BAV199",
+      "fields": {
+        "Reference": "D13",
+        "Value": "BAV199",
+        "Datasheet": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+        "Description": "",
+        "KiLib_Generator": "package/gullwing",
+        "MPN": "BAV199,215",
+        "Manufacturer": "Nexperia",
+        "BOM Comments": "Pin 1 A1=GND; pin 2 K2=AVDD; pin 3 junction=input."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "xy": [
+            109.5625,
+            129.95
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AVDD",
+          "xy": [
+            109.5625,
+            128.05
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "LL_F",
+          "xy": [
+            111.4375,
+            129.0
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        }
+      ]
+    },
+    "TP9": {
+      "xy": [
+        132.0,
+        138.0
+      ],
+      "angle": 180.0,
+      "side": "B.Cu",
+      "value": "VBAT",
+      "fields": {
+        "Reference": "TP9",
+        "Value": "VBAT",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TEST_PAD_1MM",
+        "Manufacturer": "PCB",
+        "BOM Comments": "Rev B back-side test contact; use high-Z low-C probe on analog nodes."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "VBAT",
+          "xy": [
+            132.0,
+            138.0
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    "D16": {
+      "xy": [
+        110.5,
+        118.5
+      ],
+      "angle": 0.0,
+      "side": "B.Cu",
+      "value": "BAV199",
+      "fields": {
+        "Reference": "D16",
+        "Value": "BAV199",
+        "Datasheet": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+        "Description": "",
+        "KiLib_Generator": "package/gullwing",
+        "MPN": "BAV199,215",
+        "Manufacturer": "Nexperia",
+        "BOM Comments": "Pin 1 A1=GND; pin 2 K2=AVDD; pin 3 junction=input."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "GND",
+          "xy": [
+            109.5625,
+            119.45
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "2",
+          "net": "AVDD",
+          "xy": [
+            109.5625,
+            117.55
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        },
+        {
+          "pin": "3",
+          "net": "V3_F",
+          "xy": [
+            111.4375,
+            118.5
+          ],
+          "size": [
+            1.475,
+            0.6
+          ]
+        }
+      ]
+    },
+    "TP11": {
+      "xy": [
+        125.5,
+        134.5
+      ],
+      "angle": 180.0,
+      "side": "B.Cu",
+      "value": "AVDD",
+      "fields": {
+        "Reference": "TP11",
+        "Value": "AVDD",
+        "Datasheet": "",
+        "Description": "",
+        "MPN": "TEST_PAD_1MM",
+        "Manufacturer": "PCB",
+        "BOM Comments": "Rev B back-side test contact; use high-Z low-C probe on analog nodes."
+      },
+      "pads": [
+        {
+          "pin": "1",
+          "net": "AVDD",
+          "xy": [
+            125.5,
+            134.5
+          ],
+          "size": [
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  }
+}

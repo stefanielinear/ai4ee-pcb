@@ -1,0 +1,15 @@
+{
+  "revision": "B",
+  "date_UTC": "2026-09-07T05:57:50.589775+00:00",
+  "input_sha256": {
+    "AFE.kicad_sch": "dba783050f1e983f063d4e1ed3f9e8c6cf27b8e059a5e9bf63ab1348690be785",
+    "Digital.kicad_sch": "f6ec584a53a7ea624a431fb1cf33838024a3f6c1e508816e245363735da39eec",
+    "ECG12_Portable2.kicad_sch": "f2069f57384c45a1c5f1a4e7b930e6432dd6ad168aec89f861e4ef8f4de2644a",
+    "Inputs.kicad_sch": "efcf70961f7cf0e84e59ad5322e72cca585e5ea4e4886527fbbc8c7071e27dd7",
+    "Power.kicad_sch": "e2d4cbecb7d6e6c45b955f85ee06e059a7feb9492e8893375a89c23184465137",
+    "ECG12_Portable2.kicad_pcb": "3c9ff7ff7ad7d4d5ffefc86ab4812708870c46e43e12f3ebaf3269fd08ef24cd",
+    "ECG12_Portable2.kicad_pro": "f3ea36119da5ecc55686af700dc82e32bef74f96a73d4038bd12793d5a17ebe4",
+    "ECG12_Portable2.kicad_dru": "56ee48d7342399a87591ec4ebaa0e66c2a33b130a6d6355d147263251bca4d8a"
+  },
+  "source_unchanged_during_analysis": true
+}

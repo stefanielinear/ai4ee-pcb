@@ -1,0 +1,186 @@
+{
+  "fiducials_front": [
+    "FID3",
+    "FID1",
+    "FID2"
+  ],
+  "fiducials_back": [
+    "FID4",
+    "FID5",
+    "FID6"
+  ],
+  "R38_max_ohm": 8746.6,
+  "ISET_typ_mA": 102.77136258660508,
+  "USB100_ITERM_typ_mA": 3.3914549653579678,
+  "fast_charge_timer_typ_h": 9.08,
+  "fast_charge_timer_static_h": [
+    6.741899999999999,
+    11.463500000000002
+  ],
+  "RLD_INV": {
+    "net": "RLD_INV",
+    "net_number": 36,
+    "total_length_mm": 4.188,
+    "segment_count": 4,
+    "via_count": 0,
+    "layers": {
+      "F.Cu": {
+        "length_mm": 4.188,
+        "segments": 4
+      }
+    },
+    "trace_segments": [
+      {
+        "layer": "F.Cu",
+        "length_mm": 1.998,
+        "width_mm": 0.15,
+        "impedance_ohm": 44.8
+      },
+      {
+        "layer": "F.Cu",
+        "length_mm": 0.481,
+        "width_mm": 0.15,
+        "impedance_ohm": 44.8
+      },
+      {
+        "layer": "F.Cu",
+        "length_mm": 1.335,
+        "width_mm": 0.15,
+        "impedance_ohm": 44.8
+      },
+      {
+        "layer": "F.Cu",
+        "length_mm": 0.375,
+        "width_mm": 0.15,
+        "impedance_ohm": 44.8
+      }
+    ]
+  },
+  "MCU_SCK": {
+    "net": "MCU_SCK",
+    "net_number": 31,
+    "total_length_mm": 2.09,
+    "segment_count": 2,
+    "via_count": 0,
+    "layers": {
+      "F.Cu": {
+        "length_mm": 2.09,
+        "segments": 2
+      }
+    },
+    "trace_segments": [
+      {
+        "layer": "F.Cu",
+        "length_mm": 1.89,
+        "width_mm": 0.15,
+        "impedance_ohm": 44.8
+      },
+      {
+        "layer": "F.Cu",
+        "length_mm": 0.2,
+        "width_mm": 0.15,
+        "impedance_ohm": 44.8
+      }
+    ]
+  },
+  "C27_to_U1_61_mm": 3.938214220938216,
+  "R29_to_U2_26_mm": 2.0900000000000034,
+  "testpoint_nets": [
+    "AFE_CLK",
+    "AVDD",
+    "DVDD",
+    "GND",
+    "MCU_RESET",
+    "RLD_OUT",
+    "RLD_REF",
+    "SWDCLK",
+    "SWDIO",
+    "UART_RX",
+    "UART_TX",
+    "VBAT",
+    "VREF",
+    "VSYS"
+  ],
+  "missing_critical_testpoints": [],
+  "usb_locating_hole_to_edge_mm": 5.789999999999992,
+  "charger_EP_via_count": 4,
+  "rc_only_comparison": {
+    "scenarios": [
+      {
+        "external_C_tolerance_fraction": 0.05,
+        "R_tolerance_fraction": 0.001,
+        "frequency_Hz": 50,
+        "illustrative_RC_only_rejection_dB": 57.397300002522854
+      },
+      {
+        "external_C_tolerance_fraction": 0.01,
+        "R_tolerance_fraction": 0.001,
+        "frequency_Hz": 50,
+        "illustrative_RC_only_rejection_dB": 70.63309116484879
+      }
+    ],
+    "limitation": "Illustrative first-order example using datasheet typical 20pF input; excludes LP-mode variation, cable, electrode impedances and closed-loop RLD/WCT. Not a system CMRR prediction."
+  },
+  "capacitance_scenarios": [
+    {
+      "refs": [
+        "C32",
+        "C33"
+      ],
+      "MPN": "C2012X5R1E226M125AC",
+      "bias_V": 4.5,
+      "nominal_uF": 22,
+      "bias_retention": 0.5,
+      "tolerance_retention": 0.8,
+      "temperature_retention": 0.85,
+      "aging_engineering_allowance": 0.8,
+      "scenario_effective_uF": 5.984000000000001,
+      "required_uF": 4.7
+    },
+    {
+      "refs": [
+        "C35",
+        "C37"
+      ],
+      "MPN": "C1608X5R1C475K080AC",
+      "bias_V": 3.1,
+      "nominal_uF": 4.7,
+      "bias_retention": 0.5,
+      "tolerance_retention": 0.9,
+      "temperature_retention": 0.85,
+      "aging_engineering_allowance": 0.8,
+      "scenario_effective_uF": 1.4382000000000001,
+      "required_uF": 0.47
+    },
+    {
+      "refs": [
+        "C31"
+      ],
+      "MPN": "C1608X5R1C475K080AC",
+      "bias_V": 5.25,
+      "nominal_uF": 4.7,
+      "bias_retention": 0.4,
+      "tolerance_retention": 0.9,
+      "temperature_retention": 0.85,
+      "aging_engineering_allowance": 0.8,
+      "scenario_effective_uF": 1.1505600000000002,
+      "required_uF": 1.0
+    },
+    {
+      "refs": [
+        "C34",
+        "C36"
+      ],
+      "MPN": "C1608X5R1C475K080AC",
+      "bias_V": 4.5,
+      "nominal_uF": 4.7,
+      "bias_retention": 0.4,
+      "tolerance_retention": 0.9,
+      "temperature_retention": 0.85,
+      "aging_engineering_allowance": 0.8,
+      "scenario_effective_uF": 1.1505600000000002,
+      "required_uF": 0.47
+    }
+  ],
+  "capacitance_limit": "Manufacturer DC-bias graphs are typical/reference data. Bias retention is a conservative visual reading; temperature and aging are separate engineering allowances, not a guaranteed lifetime bound. Validate effective capacitance for the actual lot at operating bias and temperature."
+}

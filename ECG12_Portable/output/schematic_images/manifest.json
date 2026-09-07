@@ -1,0 +1,56 @@
+{
+  "source_sha256": {
+    "ECG12_Portable2.kicad_sch": "f2069f57384c45a1c5f1a4e7b930e6432dd6ad168aec89f861e4ef8f4de2644a",
+    "Inputs.kicad_sch": "efcf70961f7cf0e84e59ad5322e72cca585e5ea4e4886527fbbc8c7071e27dd7",
+    "AFE.kicad_sch": "dba783050f1e983f063d4e1ed3f9e8c6cf27b8e059a5e9bf63ab1348690be785",
+    "Digital.kicad_sch": "f6ec584a53a7ea624a431fb1cf33838024a3f6c1e508816e245363735da39eec",
+    "Power.kicad_sch": "e2d4cbecb7d6e6c45b955f85ee06e059a7feb9492e8893375a89c23184465137"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "title": "系统总览",
+      "png": "01_System.png",
+      "full_page": "full_pages/01_System.png",
+      "width": 3340,
+      "height": 2243,
+      "dpi": 300
+    },
+    {
+      "page": 2,
+      "title": "电极输入与保护",
+      "png": "02_Inputs.png",
+      "full_page": "full_pages/02_Inputs.png",
+      "width": 6594,
+      "height": 2490,
+      "dpi": 300
+    },
+    {
+      "page": 3,
+      "title": "ECG 模拟前端与 RLD",
+      "png": "03_AFE.png",
+      "full_page": "full_pages/03_AFE.png",
+      "width": 4359,
+      "height": 2520,
+      "dpi": 300
+    },
+    {
+      "page": 4,
+      "title": "蓝牙与数字接口",
+      "png": "04_Digital.png",
+      "full_page": "full_pages/04_Digital.png",
+      "width": 4116,
+      "height": 1890,
+      "dpi": 300
+    },
+    {
+      "page": 5,
+      "title": "电源与 USB-C 充电",
+      "png": "05_Power.png",
+      "full_page": "full_pages/05_Power.png",
+      "width": 5404,
+      "height": 3240,
+      "dpi": 300
+    }
+  ]
+}

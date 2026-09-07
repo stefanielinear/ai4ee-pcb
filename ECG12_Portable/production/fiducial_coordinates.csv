@@ -1,0 +1,7 @@
+﻿Ref,X_mm,Y_mm,Side,Copper_diameter_mm,Mask_opening_mm
+FID1,2.5,42.5,F.Cu,1,2
+FID2,43.7,39.8,F.Cu,1,2
+FID3,2.5,2.0,F.Cu,1,2
+FID4,2.5,42.5,B.Cu,1,2
+FID5,43.7,39.8,B.Cu,1,2
+FID6,2.5,2.0,B.Cu,1,2

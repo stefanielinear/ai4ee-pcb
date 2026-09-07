@@ -1,0 +1,50 @@
+[
+  {
+    "name": "schematic",
+    "returncode": 0
+  },
+  {
+    "name": "pcb",
+    "returncode": 0
+  },
+  {
+    "name": "netlist",
+    "returncode": 0
+  },
+  {
+    "name": "parasitics",
+    "returncode": 0
+  },
+  {
+    "name": "cross",
+    "returncode": 0
+  },
+  {
+    "name": "thermal",
+    "returncode": 0
+  },
+  {
+    "name": "emc",
+    "returncode": 0
+  },
+  {
+    "name": "spice",
+    "returncode": 0
+  },
+  {
+    "name": "delta_schematic",
+    "returncode": 0
+  },
+  {
+    "name": "delta_pcb",
+    "returncode": 0
+  },
+  {
+    "name": "delta_emc",
+    "returncode": 0
+  },
+  {
+    "name": "delta_spice",
+    "returncode": 0
+  }
+]

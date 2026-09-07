@@ -1,0 +1,178 @@
+{
+  "sheets": {
+    "Power.kicad_sch": {
+      "groups": [
+        {
+          "title": "USB-C 5V input and CC protection",
+          "refs": [
+            "J2",
+            "R35",
+            "R36",
+            "D21",
+            "D22",
+            "D23",
+            "C31",
+            "#FLG1",
+            "#FLG3"
+          ]
+        },
+        {
+          "title": "PowerPath charger and cell temperature",
+          "refs": [
+            "U3",
+            "R37",
+            "R38",
+            "R39",
+            "R40",
+            "R41",
+            "C32",
+            "C33",
+            "J3",
+            "D24"
+          ]
+        },
+        {
+          "title": "3V analog low-noise supply",
+          "refs": [
+            "U4",
+            "C34",
+            "C35"
+          ]
+        },
+        {
+          "title": "3V digital supply",
+          "refs": [
+            "U5",
+            "C36",
+            "C37"
+          ]
+        }
+      ]
+    },
+    "AFE.kicad_sch": {
+      "groups": [
+        {
+          "title": "Synchronous ECG converter",
+          "refs": [
+            "U1"
+          ]
+        },
+        {
+          "title": "Analog supply bypass bank",
+          "refs": [
+            "C10",
+            "C11",
+            "C12",
+            "C13",
+            "C14"
+          ]
+        },
+        {
+          "title": "Digital supply bypass bank",
+          "refs": [
+            "C15",
+            "C16"
+          ]
+        },
+        {
+          "title": "Internal bypass nodes",
+          "refs": [
+            "C17",
+            "C18",
+            "C19",
+            "C20"
+          ]
+        },
+        {
+          "title": "Internal 2.4V reference",
+          "refs": [
+            "C21",
+            "C22"
+          ]
+        },
+        {
+          "title": "Charge pump supply filter",
+          "refs": [
+            "R21",
+            "C23",
+            "C24",
+            "#FLG6"
+          ]
+        },
+        {
+          "title": "Wilson central terminal",
+          "refs": [
+            "C25"
+          ]
+        },
+        {
+          "title": "Patient bias reference",
+          "refs": [
+            "R22",
+            "R23",
+            "C26"
+          ]
+        },
+        {
+          "title": "RLD compensated feedback",
+          "refs": [
+            "R24",
+            "C27"
+          ]
+        },
+        {
+          "title": "AFE control defaults",
+          "refs": [
+            "R25",
+            "R26",
+            "R27"
+          ]
+        }
+      ]
+    },
+    "Digital.kicad_sch": {
+      "groups": [
+        {
+          "title": "BLE module and SPI termination",
+          "refs": [
+            "U2",
+            "R28",
+            "R29",
+            "R30",
+            "C28",
+            "C29",
+            "R31"
+          ]
+        },
+        {
+          "title": "Battery voltage monitor",
+          "refs": [
+            "R32",
+            "R33",
+            "C30"
+          ]
+        },
+        {
+          "title": "Status LED",
+          "refs": [
+            "R34",
+            "D20"
+          ]
+        },
+        {
+          "title": "Programming and test contacts",
+          "refs": [
+            "TP1",
+            "TP2",
+            "TP3",
+            "TP4",
+            "TP5",
+            "TP6",
+            "TP7",
+            "TP8"
+          ]
+        }
+      ]
+    }
+  }
+}

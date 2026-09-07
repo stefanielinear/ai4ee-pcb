@@ -1,0 +1,6 @@
+﻿Item,Qty_per_device,Manufacturer,MPN_or_spec,Notes
+Protected cell,1,Adafruit,1578,"500 mAh 1S, prototype cell; use PH mating harness, do not solder directly to pouch tabs"
+Cell thermistor,1,Semitec,103AT-2,"10k NTC, electrically insulated and thermally bonded to cell; route to J3 pins3/4"
+Battery harness,1,Custom,JST SHR-04V-S / SSH-003T-P0.2,Adapt protected-cell PH plug and NTC to J3: 1 +;2 -;3 NTC;4 return. Continuity/polarity test every harness.
+Electrode harness,1,Custom,JST SHR-10V-S / SSH-003T-P0.2,J1 pin1 RA;2 LA;3 LL;4-9 V1-V6;10 RL. External patient insulation/strain relief required.
+Enclosure / insulating carrier,1,Custom,45 mm PCB carrier,Keep cell/metal clear of RF zone; retain board without mounting holes; insulate battery from rear components.

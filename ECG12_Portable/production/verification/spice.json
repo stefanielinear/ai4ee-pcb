@@ -1,0 +1,877 @@
+{
+  "analyzer_type": "spice",
+  "schema_version": "1.4.0",
+  "summary": {
+    "total": 31,
+    "total_findings": 6,
+    "pass": 25,
+    "warn": 6,
+    "fail": 0,
+    "skip": 0,
+    "by_severity": {
+      "error": 0,
+      "warning": 6,
+      "info": 25
+    }
+  },
+  "findings": [
+    {
+      "detector": "simulate_subcircuits",
+      "rule_id": "SP-WARN",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "heuristic_rule",
+      "category": "simulation",
+      "summary": "decoupling C4 \u2014 SPICE converged with warnings",
+      "description": "SPICE simulation of decoupling (C4) converged with warnings. Expected: \u2014. Simulated: z_min_ohms=11.7427, z_at_1MHz_ohms=723.491, z_at_100kHz_ohms=7234.32. Delta: no numeric delta.",
+      "components": [
+        "C4"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Review the expected vs simulated values; confirm component values match the datasheet reference design, and that parasitics are modelled where they affect the result.",
+      "report_context": {
+        "section": "SPICE Simulation",
+        "impact": "Simulation results warrant review",
+        "standard_ref": ""
+      },
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 11.7427,
+        "z_at_1MHz_ohms": 723.491,
+        "z_at_100kHz_ohms": 7234.32
+      },
+      "delta": {}
+    },
+    {
+      "detector": "simulate_subcircuits",
+      "rule_id": "SP-WARN",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "heuristic_rule",
+      "category": "simulation",
+      "summary": "decoupling C5 \u2014 SPICE converged with warnings",
+      "description": "SPICE simulation of decoupling (C5) converged with warnings. Expected: \u2014. Simulated: z_min_ohms=11.7427, z_at_1MHz_ohms=723.491, z_at_100kHz_ohms=7234.32. Delta: no numeric delta.",
+      "components": [
+        "C5"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Review the expected vs simulated values; confirm component values match the datasheet reference design, and that parasitics are modelled where they affect the result.",
+      "report_context": {
+        "section": "SPICE Simulation",
+        "impact": "Simulation results warrant review",
+        "standard_ref": ""
+      },
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 11.7427,
+        "z_at_1MHz_ohms": 723.491,
+        "z_at_100kHz_ohms": 7234.32
+      },
+      "delta": {}
+    },
+    {
+      "detector": "simulate_subcircuits",
+      "rule_id": "SP-WARN",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "heuristic_rule",
+      "category": "simulation",
+      "summary": "decoupling C6 \u2014 SPICE converged with warnings",
+      "description": "SPICE simulation of decoupling (C6) converged with warnings. Expected: \u2014. Simulated: z_min_ohms=11.7427, z_at_1MHz_ohms=723.491, z_at_100kHz_ohms=7234.32. Delta: no numeric delta.",
+      "components": [
+        "C6"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Review the expected vs simulated values; confirm component values match the datasheet reference design, and that parasitics are modelled where they affect the result.",
+      "report_context": {
+        "section": "SPICE Simulation",
+        "impact": "Simulation results warrant review",
+        "standard_ref": ""
+      },
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 11.7427,
+        "z_at_1MHz_ohms": 723.491,
+        "z_at_100kHz_ohms": 7234.32
+      },
+      "delta": {}
+    },
+    {
+      "detector": "simulate_subcircuits",
+      "rule_id": "SP-WARN",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "heuristic_rule",
+      "category": "simulation",
+      "summary": "decoupling C7 \u2014 SPICE converged with warnings",
+      "description": "SPICE simulation of decoupling (C7) converged with warnings. Expected: \u2014. Simulated: z_min_ohms=11.7427, z_at_1MHz_ohms=723.491, z_at_100kHz_ohms=7234.32. Delta: no numeric delta.",
+      "components": [
+        "C7"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Review the expected vs simulated values; confirm component values match the datasheet reference design, and that parasitics are modelled where they affect the result.",
+      "report_context": {
+        "section": "SPICE Simulation",
+        "impact": "Simulation results warrant review",
+        "standard_ref": ""
+      },
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 11.7427,
+        "z_at_1MHz_ohms": 723.491,
+        "z_at_100kHz_ohms": 7234.32
+      },
+      "delta": {}
+    },
+    {
+      "detector": "simulate_subcircuits",
+      "rule_id": "SP-WARN",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "heuristic_rule",
+      "category": "simulation",
+      "summary": "decoupling C8 \u2014 SPICE converged with warnings",
+      "description": "SPICE simulation of decoupling (C8) converged with warnings. Expected: \u2014. Simulated: z_min_ohms=11.7427, z_at_1MHz_ohms=723.491, z_at_100kHz_ohms=7234.32. Delta: no numeric delta.",
+      "components": [
+        "C8"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Review the expected vs simulated values; confirm component values match the datasheet reference design, and that parasitics are modelled where they affect the result.",
+      "report_context": {
+        "section": "SPICE Simulation",
+        "impact": "Simulation results warrant review",
+        "standard_ref": ""
+      },
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 11.7427,
+        "z_at_1MHz_ohms": 723.491,
+        "z_at_100kHz_ohms": 7234.32
+      },
+      "delta": {}
+    },
+    {
+      "detector": "simulate_subcircuits",
+      "rule_id": "SP-WARN",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "heuristic_rule",
+      "category": "simulation",
+      "summary": "decoupling C9 \u2014 SPICE converged with warnings",
+      "description": "SPICE simulation of decoupling (C9) converged with warnings. Expected: \u2014. Simulated: z_min_ohms=11.7427, z_at_1MHz_ohms=723.491, z_at_100kHz_ohms=7234.32. Delta: no numeric delta.",
+      "components": [
+        "C9"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Review the expected vs simulated values; confirm component values match the datasheet reference design, and that parasitics are modelled where they affect the result.",
+      "report_context": {
+        "section": "SPICE Simulation",
+        "impact": "Simulation results warrant review",
+        "standard_ref": ""
+      },
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 11.7427,
+        "z_at_1MHz_ohms": 723.491,
+        "z_at_100kHz_ohms": 7234.32
+      },
+      "delta": {}
+    }
+  ],
+  "simulation_results": [
+    {
+      "subcircuit_type": "rc_filter",
+      "components": [
+        "R2",
+        "C1"
+      ],
+      "filter_type": "low-pass",
+      "expected": {
+        "cutoff_hz": 7957.75,
+        "type": "low-pass"
+      },
+      "simulated": {
+        "cutoff_hz": 7938.86,
+        "phase_at_fc_deg": -0.784199
+      },
+      "delta": {
+        "fc_error_pct": 0.24
+      },
+      "status": "pass",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\rc-filter_R2_C1.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\rc-filter_R2_C1.log",
+      "elapsed_s": 0.125,
+      "reference": "R2/C1"
+    },
+    {
+      "subcircuit_type": "rc_filter",
+      "components": [
+        "R4",
+        "C2"
+      ],
+      "filter_type": "low-pass",
+      "expected": {
+        "cutoff_hz": 7234.32,
+        "type": "low-pass"
+      },
+      "simulated": {
+        "cutoff_hz": 7217.15,
+        "phase_at_fc_deg": -0.784199
+      },
+      "delta": {
+        "fc_error_pct": 0.24
+      },
+      "status": "pass",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\rc-filter_R4_C2.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\rc-filter_R4_C2.log",
+      "elapsed_s": 0.094,
+      "reference": "R4/C2"
+    },
+    {
+      "subcircuit_type": "rc_filter",
+      "components": [
+        "R19",
+        "C27"
+      ],
+      "filter_type": "RC-network",
+      "expected": {
+        "cutoff_hz": 212.63,
+        "type": "RC-network"
+      },
+      "simulated": {
+        "cutoff_hz": 212.127,
+        "phase_at_fc_deg": -0.784199
+      },
+      "delta": {
+        "fc_error_pct": 0.24
+      },
+      "status": "pass",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\rc-filter_R19_C27.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\rc-filter_R19_C27.log",
+      "elapsed_s": 0.109,
+      "reference": "R19/C27"
+    },
+    {
+      "subcircuit_type": "rc_filter",
+      "components": [
+        "R6",
+        "C3"
+      ],
+      "filter_type": "low-pass",
+      "expected": {
+        "cutoff_hz": 7234.32,
+        "type": "low-pass"
+      },
+      "simulated": {
+        "cutoff_hz": 7217.15,
+        "phase_at_fc_deg": -0.784199
+      },
+      "delta": {
+        "fc_error_pct": 0.24
+      },
+      "status": "pass",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\rc-filter_R6_C3.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\rc-filter_R6_C3.log",
+      "elapsed_s": 0.094,
+      "reference": "R6/C3"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R22",
+        "R23"
+      ],
+      "expected": {
+        "ratio": 0.5,
+        "vout_V": 1.65
+      },
+      "simulated": {
+        "vout_V": 1.65
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\voltage-divider_R22_R23.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\voltage-divider_R22_R23.log",
+      "elapsed_s": 0.094,
+      "reference": "R22/R23"
+    },
+    {
+      "subcircuit_type": "voltage_divider",
+      "components": [
+        "R32",
+        "R33"
+      ],
+      "expected": {
+        "ratio": 0.5,
+        "vout_V": 1.85
+      },
+      "simulated": {
+        "vout_V": 1.85
+      },
+      "delta": {
+        "vout_error_pct": 0.0
+      },
+      "status": "pass",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\voltage-divider_R32_R33.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\voltage-divider_R32_R33.log",
+      "elapsed_s": 0.093,
+      "reference": "R32/R33"
+    },
+    {
+      "subcircuit_type": "protection_device",
+      "components": [
+        "D1"
+      ],
+      "device_type": "diode",
+      "expected": {
+        "rail_voltage_V": 3.3
+      },
+      "simulated": {},
+      "delta": {},
+      "model_note": "generic diode model \u2014 real TVS has specific clamping characteristics",
+      "status": "pass",
+      "note": "Protection diode present \u2014 clamping voltage requires manufacturer model for accurate measurement",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx0.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx0.log",
+      "elapsed_s": 0.11,
+      "reference": "D1"
+    },
+    {
+      "subcircuit_type": "protection_device",
+      "components": [
+        "D10"
+      ],
+      "device_type": "diode",
+      "expected": {
+        "rail_voltage_V": 3.3
+      },
+      "simulated": {},
+      "delta": {},
+      "model_note": "generic diode model \u2014 real TVS has specific clamping characteristics",
+      "status": "pass",
+      "note": "Protection diode present \u2014 clamping voltage requires manufacturer model for accurate measurement",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx1.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx1.log",
+      "elapsed_s": 0.125,
+      "reference": "D10"
+    },
+    {
+      "subcircuit_type": "protection_device",
+      "components": [
+        "D2"
+      ],
+      "device_type": "diode",
+      "expected": {
+        "rail_voltage_V": 3.3
+      },
+      "simulated": {},
+      "delta": {},
+      "model_note": "generic diode model \u2014 real TVS has specific clamping characteristics",
+      "status": "pass",
+      "note": "Protection diode present \u2014 clamping voltage requires manufacturer model for accurate measurement",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx2.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx2.log",
+      "elapsed_s": 0.093,
+      "reference": "D2"
+    },
+    {
+      "subcircuit_type": "protection_device",
+      "components": [
+        "D21"
+      ],
+      "device_type": "diode",
+      "expected": {
+        "rail_voltage_V": 5.0
+      },
+      "simulated": {},
+      "delta": {},
+      "model_note": "generic diode model \u2014 real TVS has specific clamping characteristics",
+      "status": "pass",
+      "note": "Protection diode present \u2014 clamping voltage requires manufacturer model for accurate measurement",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx3.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx3.log",
+      "elapsed_s": 0.125,
+      "reference": "D21"
+    },
+    {
+      "subcircuit_type": "protection_device",
+      "components": [
+        "D22"
+      ],
+      "device_type": "diode",
+      "expected": {
+        "rail_voltage_V": 3.3
+      },
+      "simulated": {},
+      "delta": {},
+      "model_note": "generic diode model \u2014 real TVS has specific clamping characteristics",
+      "status": "pass",
+      "note": "Protection diode present \u2014 clamping voltage requires manufacturer model for accurate measurement",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx4.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx4.log",
+      "elapsed_s": 0.094,
+      "reference": "D22"
+    },
+    {
+      "subcircuit_type": "protection_device",
+      "components": [
+        "D23"
+      ],
+      "device_type": "diode",
+      "expected": {
+        "rail_voltage_V": 3.3
+      },
+      "simulated": {},
+      "delta": {},
+      "model_note": "generic diode model \u2014 real TVS has specific clamping characteristics",
+      "status": "pass",
+      "note": "Protection diode present \u2014 clamping voltage requires manufacturer model for accurate measurement",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx5.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx5.log",
+      "elapsed_s": 0.11,
+      "reference": "D23"
+    },
+    {
+      "subcircuit_type": "protection_device",
+      "components": [
+        "D3"
+      ],
+      "device_type": "diode",
+      "expected": {
+        "rail_voltage_V": 3.3
+      },
+      "simulated": {},
+      "delta": {},
+      "model_note": "generic diode model \u2014 real TVS has specific clamping characteristics",
+      "status": "pass",
+      "note": "Protection diode present \u2014 clamping voltage requires manufacturer model for accurate measurement",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx6.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx6.log",
+      "elapsed_s": 0.109,
+      "reference": "D3"
+    },
+    {
+      "subcircuit_type": "protection_device",
+      "components": [
+        "D4"
+      ],
+      "device_type": "diode",
+      "expected": {
+        "rail_voltage_V": 3.3
+      },
+      "simulated": {},
+      "delta": {},
+      "model_note": "generic diode model \u2014 real TVS has specific clamping characteristics",
+      "status": "pass",
+      "note": "Protection diode present \u2014 clamping voltage requires manufacturer model for accurate measurement",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx7.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx7.log",
+      "elapsed_s": 0.125,
+      "reference": "D4"
+    },
+    {
+      "subcircuit_type": "protection_device",
+      "components": [
+        "D5"
+      ],
+      "device_type": "diode",
+      "expected": {
+        "rail_voltage_V": 3.3
+      },
+      "simulated": {},
+      "delta": {},
+      "model_note": "generic diode model \u2014 real TVS has specific clamping characteristics",
+      "status": "pass",
+      "note": "Protection diode present \u2014 clamping voltage requires manufacturer model for accurate measurement",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx8.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx8.log",
+      "elapsed_s": 0.109,
+      "reference": "D5"
+    },
+    {
+      "subcircuit_type": "protection_device",
+      "components": [
+        "D6"
+      ],
+      "device_type": "diode",
+      "expected": {
+        "rail_voltage_V": 3.3
+      },
+      "simulated": {},
+      "delta": {},
+      "model_note": "generic diode model \u2014 real TVS has specific clamping characteristics",
+      "status": "pass",
+      "note": "Protection diode present \u2014 clamping voltage requires manufacturer model for accurate measurement",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx9.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx9.log",
+      "elapsed_s": 0.125,
+      "reference": "D6"
+    },
+    {
+      "subcircuit_type": "protection_device",
+      "components": [
+        "D7"
+      ],
+      "device_type": "diode",
+      "expected": {
+        "rail_voltage_V": 3.3
+      },
+      "simulated": {},
+      "delta": {},
+      "model_note": "generic diode model \u2014 real TVS has specific clamping characteristics",
+      "status": "pass",
+      "note": "Protection diode present \u2014 clamping voltage requires manufacturer model for accurate measurement",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx10.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx10.log",
+      "elapsed_s": 0.11,
+      "reference": "D7"
+    },
+    {
+      "subcircuit_type": "protection_device",
+      "components": [
+        "D8"
+      ],
+      "device_type": "diode",
+      "expected": {
+        "rail_voltage_V": 3.3
+      },
+      "simulated": {},
+      "delta": {},
+      "model_note": "generic diode model \u2014 real TVS has specific clamping characteristics",
+      "status": "pass",
+      "note": "Protection diode present \u2014 clamping voltage requires manufacturer model for accurate measurement",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx11.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx11.log",
+      "elapsed_s": 0.125,
+      "reference": "D8"
+    },
+    {
+      "subcircuit_type": "protection_device",
+      "components": [
+        "D9"
+      ],
+      "device_type": "diode",
+      "expected": {
+        "rail_voltage_V": 3.3
+      },
+      "simulated": {},
+      "delta": {},
+      "model_note": "generic diode model \u2014 real TVS has specific clamping characteristics",
+      "status": "pass",
+      "note": "Protection diode present \u2014 clamping voltage requires manufacturer model for accurate measurement",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx12.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\protection-device_idx12.log",
+      "elapsed_s": 0.125,
+      "reference": "D9"
+    },
+    {
+      "subcircuit_type": "decoupling",
+      "components": [
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14"
+      ],
+      "rail": "AVDD",
+      "cap_count": 6,
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 0.0355,
+        "f_at_zmin_hz": 3054870.0,
+        "z_at_1MHz_ohms": 0.0432,
+        "z_at_100kHz_ohms": 0.2634
+      },
+      "delta": {},
+      "model_note": "generic ESR + parasitic L from self-resonant frequency",
+      "status": "pass",
+      "note": "Z=0.043\u03a9 at 1MHz",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C10_C11_C12_C13_C14.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C10_C11_C12_C13_C14.log",
+      "elapsed_s": 0.125,
+      "reference": "C10/C11/C12/C13/C14"
+    },
+    {
+      "subcircuit_type": "decoupling",
+      "components": [
+        "C15",
+        "C16",
+        "C28",
+        "C29",
+        "C37"
+      ],
+      "rail": "DVDD",
+      "cap_count": 5,
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 0.0182,
+        "z_at_1MHz_ohms": 0.0204,
+        "z_at_100kHz_ohms": 0.1076
+      },
+      "delta": {},
+      "model_note": "generic ESR + parasitic L from self-resonant frequency",
+      "status": "pass",
+      "note": "Z=0.020\u03a9 at 1MHz",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C15_C16_C28_C29_C37.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C15_C16_C28_C29_C37.log",
+      "elapsed_s": 0.109,
+      "reference": "C15/C16/C28/C29/C37"
+    },
+    {
+      "subcircuit_type": "decoupling",
+      "components": [
+        "C23",
+        "C24"
+      ],
+      "rail": "AVDD_CP",
+      "cap_count": 2,
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 0.2294,
+        "f_at_zmin_hz": 10344300.0,
+        "z_at_1MHz_ohms": 0.2916,
+        "z_at_100kHz_ohms": 1.471
+      },
+      "delta": {},
+      "model_note": "generic ESR + parasitic L from self-resonant frequency",
+      "status": "pass",
+      "note": "Z=0.292\u03a9 at 1MHz",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C23_C24.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C23_C24.log",
+      "elapsed_s": 0.109,
+      "reference": "C23/C24"
+    },
+    {
+      "subcircuit_type": "decoupling",
+      "components": [
+        "C31"
+      ],
+      "rail": "VBUS",
+      "cap_count": 1,
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 0.0461,
+        "f_at_zmin_hz": 2785900.0,
+        "z_at_1MHz_ohms": 0.0547,
+        "z_at_100kHz_ohms": 0.3413
+      },
+      "delta": {},
+      "model_note": "generic ESR + parasitic L from self-resonant frequency",
+      "status": "pass",
+      "note": "Z=0.055\u03a9 at 1MHz",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C31.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C31.log",
+      "elapsed_s": 0.157,
+      "reference": "C31"
+    },
+    {
+      "subcircuit_type": "decoupling",
+      "components": [
+        "C32",
+        "C34",
+        "C36"
+      ],
+      "rail": "VSYS",
+      "cap_count": 3,
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 0.0078,
+        "z_at_1MHz_ohms": 0.0079,
+        "z_at_100kHz_ohms": 0.0509
+      },
+      "delta": {},
+      "model_note": "generic ESR + parasitic L from self-resonant frequency",
+      "status": "pass",
+      "note": "Z=0.008\u03a9 at 1MHz",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C32_C34_C36.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C32_C34_C36.log",
+      "elapsed_s": 0.109,
+      "reference": "C32/C34/C36"
+    },
+    {
+      "subcircuit_type": "decoupling",
+      "components": [
+        "C33"
+      ],
+      "rail": "VBAT",
+      "cap_count": 1,
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 0.0107,
+        "z_at_1MHz_ohms": 0.0108,
+        "z_at_100kHz_ohms": 0.0726
+      },
+      "delta": {},
+      "model_note": "generic ESR + parasitic L from self-resonant frequency",
+      "status": "pass",
+      "note": "Z=0.011\u03a9 at 1MHz",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C33.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C33.log",
+      "elapsed_s": 0.172,
+      "reference": "C33"
+    },
+    {
+      "subcircuit_type": "decoupling",
+      "components": [
+        "C4"
+      ],
+      "rail": "V1_F",
+      "cap_count": 1,
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 11.7427,
+        "z_at_1MHz_ohms": 723.491,
+        "z_at_100kHz_ohms": 7234.32
+      },
+      "delta": {},
+      "model_note": "generic ESR + parasitic L from self-resonant frequency",
+      "status": "warn",
+      "note": "Z=723.5\u03a9 at 1MHz \u2014 single bulk cap or high-value rail",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C4.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C4.log",
+      "elapsed_s": 0.187,
+      "reference": "C4"
+    },
+    {
+      "subcircuit_type": "decoupling",
+      "components": [
+        "C5"
+      ],
+      "rail": "V2_F",
+      "cap_count": 1,
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 11.7427,
+        "z_at_1MHz_ohms": 723.491,
+        "z_at_100kHz_ohms": 7234.32
+      },
+      "delta": {},
+      "model_note": "generic ESR + parasitic L from self-resonant frequency",
+      "status": "warn",
+      "note": "Z=723.5\u03a9 at 1MHz \u2014 single bulk cap or high-value rail",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C5.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C5.log",
+      "elapsed_s": 0.172,
+      "reference": "C5"
+    },
+    {
+      "subcircuit_type": "decoupling",
+      "components": [
+        "C6"
+      ],
+      "rail": "V3_F",
+      "cap_count": 1,
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 11.7427,
+        "z_at_1MHz_ohms": 723.491,
+        "z_at_100kHz_ohms": 7234.32
+      },
+      "delta": {},
+      "model_note": "generic ESR + parasitic L from self-resonant frequency",
+      "status": "warn",
+      "note": "Z=723.5\u03a9 at 1MHz \u2014 single bulk cap or high-value rail",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C6.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C6.log",
+      "elapsed_s": 0.157,
+      "reference": "C6"
+    },
+    {
+      "subcircuit_type": "decoupling",
+      "components": [
+        "C7"
+      ],
+      "rail": "V4_F",
+      "cap_count": 1,
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 11.7427,
+        "z_at_1MHz_ohms": 723.491,
+        "z_at_100kHz_ohms": 7234.32
+      },
+      "delta": {},
+      "model_note": "generic ESR + parasitic L from self-resonant frequency",
+      "status": "warn",
+      "note": "Z=723.5\u03a9 at 1MHz \u2014 single bulk cap or high-value rail",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C7.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C7.log",
+      "elapsed_s": 0.171,
+      "reference": "C7"
+    },
+    {
+      "subcircuit_type": "decoupling",
+      "components": [
+        "C8"
+      ],
+      "rail": "V5_F",
+      "cap_count": 1,
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 11.7427,
+        "z_at_1MHz_ohms": 723.491,
+        "z_at_100kHz_ohms": 7234.32
+      },
+      "delta": {},
+      "model_note": "generic ESR + parasitic L from self-resonant frequency",
+      "status": "warn",
+      "note": "Z=723.5\u03a9 at 1MHz \u2014 single bulk cap or high-value rail",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C8.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C8.log",
+      "elapsed_s": 0.157,
+      "reference": "C8"
+    },
+    {
+      "subcircuit_type": "decoupling",
+      "components": [
+        "C9"
+      ],
+      "rail": "V6_F",
+      "cap_count": 1,
+      "expected": {},
+      "simulated": {
+        "z_min_ohms": 11.7427,
+        "z_at_1MHz_ohms": 723.491,
+        "z_at_100kHz_ohms": 7234.32
+      },
+      "delta": {},
+      "model_note": "generic ESR + parasitic L from self-resonant frequency",
+      "status": "warn",
+      "note": "Z=723.5\u03a9 at 1MHz \u2014 single bulk cap or high-value rail",
+      "cir_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C9.cir",
+      "log_file": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work\\decoupling_C9.log",
+      "elapsed_s": 0.172,
+      "reference": "C9"
+    }
+  ],
+  "trust_summary": {
+    "total_findings": 6,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 6,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 0,
+      "heuristic_rule": 6,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": 0.0
+  },
+  "workdir": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\spice_work",
+  "total_elapsed_s": 3.891,
+  "simulator": "D:\\Program Files\\Spice64\\bin\\ngspice.EXE",
+  "ngspice": "D:\\Program Files\\Spice64\\bin\\ngspice.EXE"
+}

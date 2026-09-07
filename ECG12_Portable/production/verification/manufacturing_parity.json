@@ -1,0 +1,56 @@
+{
+  "files": [
+    {
+      "file": "gerber/ECG12_Portable2-B_Cu.gbl",
+      "matches_export_after_removing_timestamp": true
+    },
+    {
+      "file": "gerber/ECG12_Portable2-B_Mask.gbs",
+      "matches_export_after_removing_timestamp": true
+    },
+    {
+      "file": "gerber/ECG12_Portable2-B_Paste.gbp",
+      "matches_export_after_removing_timestamp": true
+    },
+    {
+      "file": "gerber/ECG12_Portable2-B_Silkscreen.gbo",
+      "matches_export_after_removing_timestamp": true
+    },
+    {
+      "file": "gerber/ECG12_Portable2-Edge_Cuts.gm1",
+      "matches_export_after_removing_timestamp": true
+    },
+    {
+      "file": "gerber/ECG12_Portable2-F_Cu.gtl",
+      "matches_export_after_removing_timestamp": true
+    },
+    {
+      "file": "gerber/ECG12_Portable2-F_Mask.gts",
+      "matches_export_after_removing_timestamp": true
+    },
+    {
+      "file": "gerber/ECG12_Portable2-F_Paste.gtp",
+      "matches_export_after_removing_timestamp": true
+    },
+    {
+      "file": "gerber/ECG12_Portable2-F_Silkscreen.gto",
+      "matches_export_after_removing_timestamp": true
+    },
+    {
+      "file": "gerber/ECG12_Portable2-In1_Cu.g1",
+      "matches_export_after_removing_timestamp": true
+    },
+    {
+      "file": "gerber/ECG12_Portable2-In2_Cu.g2",
+      "matches_export_after_removing_timestamp": true
+    },
+    {
+      "file": "drill/ECG12_Portable2-NPTH.drl",
+      "matches_export_after_removing_timestamp": true
+    },
+    {
+      "file": "drill/ECG12_Portable2-PTH.drl",
+      "matches_export_after_removing_timestamp": true
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "added": [
+    {
+      "signal": "AFE_MISO",
+      "signal_via": [
+        138.5591,
+        112.2
+      ],
+      "ground_via": [
+        138.875,
+        112.97500000000001
+      ]
+    }
+  ],
+  "remaining": [
+    {
+      "signal": "AFE_CS",
+      "via": [
+        131.3934,
+        119.8697
+      ],
+      "nearest_ground_mm": 2.5329535428033525
+    },
+    {
+      "signal": "AFE_MISO",
+      "via": [
+        129.107,
+        120.75
+      ],
+      "nearest_ground_mm": 2.234580273787455
+    },
+    {
+      "signal": "AFE_DRDY",
+      "via": [
+        136.325,
+        111.5
+      ],
+      "nearest_ground_mm": 2.9458657471107
+    },
+    {
+      "signal": "AFE_DRDY",
+      "via": [
+        129.7307,
+        120.0334
+      ],
+      "nearest_ground_mm": 1.5879080735357527
+    },
+    {
+      "signal": "SWDCLK",
+      "via": [
+        137.1728,
+        121.912
+      ],
+      "nearest_ground_mm": 2.49931467406568
+    },
+    {
+      "signal": "SWDIO",
+      "via": [
+        137.9832,
+        121.1662
+      ],
+      "nearest_ground_mm": 2.0375388781566897
+    },
+    {
+      "signal": "AFE_SCK",
+      "via": [
+        130.6437,
+        120.8667
+      ],
+      "nearest_ground_mm": 2.7293590053343992
+    }
+  ]
+}

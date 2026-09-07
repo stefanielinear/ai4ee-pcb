@@ -1,0 +1,234 @@
+{
+  "analyzer_type": "cross_analysis",
+  "schema_version": "1.4.0",
+  "inputs": {
+    "source_files": [
+      "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\schematic.json",
+      "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\pcb.json"
+    ],
+    "source_hashes": {
+      "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\schematic.json": "ae166eff7ea1b0310659fa9a117b1c4fdaec15a0ffdc41ac959161d8a387e8f2",
+      "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\pcb.json": "e71f7bcf8c52ee8850fc575d2db26fe360788ae252fbc9c29715a9a3af5afbb0"
+    },
+    "run_id": "20260907T055016Z-5ef539",
+    "config_hash": null,
+    "upstream_artifacts": {
+      "schematic": {
+        "path": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\schematic.json",
+        "sha256": "ae166eff7ea1b0310659fa9a117b1c4fdaec15a0ffdc41ac959161d8a387e8f2",
+        "schema_version": "1.4.0",
+        "run_id": "20260907T055016Z-5ef539"
+      },
+      "pcb": {
+        "path": "D:\\workspace\\ECG12_Portable2\\analysis\\revB\\pcb.json",
+        "sha256": "e71f7bcf8c52ee8850fc575d2db26fe360788ae252fbc9c29715a9a3af5afbb0",
+        "schema_version": "1.4.0",
+        "run_id": "20260907T055016Z-5ef539"
+      }
+    }
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "elapsed_s": 0.039,
+  "summary": {
+    "total_findings": 1,
+    "by_severity": {
+      "error": 0,
+      "warning": 1,
+      "info": 0
+    }
+  },
+  "findings": [
+    {
+      "detector": "check_critical_net_routing",
+      "rule_id": "NR-001",
+      "category": "signal_routing",
+      "summary": "clock net SWDCLK: 1.9mm from board edge",
+      "description": "High-speed clock net SWDCLK is routed 1.9mm from the board edge. Signals near edges radiate more effectively.",
+      "components": [],
+      "nets": [
+        "SWDCLK"
+      ],
+      "pins": [],
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "recommendation": "Re-route SWDCLK at least 2.0mm from board edges.",
+      "report_context": {
+        "section": "Signal Routing",
+        "impact": "Increased EMI radiation and susceptibility",
+        "standard_ref": ""
+      },
+      "finding_id": "cross_analysis:NR-001:swdclk",
+      "stages": [
+        "layout"
+      ]
+    }
+  ],
+  "assessments": [],
+  "checks_run": [
+    {
+      "check": "CC-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 3,
+      "findings": 0
+    },
+    {
+      "check": "EG-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 3,
+      "findings": 0
+    },
+    {
+      "check": "DA-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "XV-001..003",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 130,
+      "findings": 0
+    },
+    {
+      "check": "NR-001",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 939,
+      "findings": 1
+    },
+    {
+      "check": "RP-002",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 939,
+      "findings": 0
+    },
+    {
+      "check": "TW-001",
+      "ran": false,
+      "reason_skipped": "no power regulator current estimates in schematic analysis",
+      "items_examined": 0,
+      "findings": 0
+    },
+    {
+      "check": "PS-002",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 103,
+      "findings": 0
+    },
+    {
+      "check": "VS-002",
+      "ran": true,
+      "reason_skipped": null,
+      "items_examined": 178,
+      "findings": 0
+    },
+    {
+      "check": "DP-005",
+      "ran": false,
+      "reason_skipped": "no differential pairs classified in schematic net_classifications",
+      "items_examined": 0,
+      "findings": 0
+    }
+  ],
+  "trust_summary": {
+    "total_findings": 1,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 1,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 1,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": 0.0
+  },
+  "audience_summary": {
+    "designer": {
+      "total_findings": 1,
+      "by_severity": {
+        "error": 0,
+        "warning": 1,
+        "info": 0
+      },
+      "by_category": {
+        "signal_routing": 1
+      },
+      "top_issues": [
+        {
+          "detector": "check_critical_net_routing",
+          "rule_id": "NR-001",
+          "category": "signal_routing",
+          "summary": "clock net SWDCLK: 1.9mm from board edge",
+          "description": "High-speed clock net SWDCLK is routed 1.9mm from the board edge. Signals near edges radiate more effectively.",
+          "components": [],
+          "nets": [
+            "SWDCLK"
+          ],
+          "pins": [],
+          "severity": "warning",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "recommendation": "Re-route SWDCLK at least 2.0mm from board edges.",
+          "report_context": {
+            "section": "Signal Routing",
+            "impact": "Increased EMI radiation and susceptibility",
+            "standard_ref": ""
+          },
+          "finding_id": "cross_analysis:NR-001:swdclk",
+          "stages": [
+            "layout"
+          ]
+        }
+      ]
+    },
+    "reviewer": {
+      "total_findings": 1,
+      "by_category": {
+        "signal_routing": 1
+      },
+      "top_issues": [
+        {
+          "rule_id": "NR-001",
+          "severity": "warning",
+          "summary": "clock net SWDCLK: 1.9mm from board edge",
+          "recommendation": "Re-route SWDCLK at least 2.0mm from board edges.",
+          "category": "signal_routing"
+        }
+      ]
+    },
+    "manager": {
+      "risk_level": "low",
+      "blocker_count": 0,
+      "warning_count": 1,
+      "stage_readiness": {
+        "schematic": "pass",
+        "layout": "needs_review",
+        "pre_fab": "pass",
+        "bring_up": "pass"
+      },
+      "one_liner": "1 warning across 1 category."
+    }
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20260907T055016Z-5ef539"
+  }
+}

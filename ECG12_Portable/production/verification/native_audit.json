@@ -1,0 +1,415 @@
+{
+  "kicad_version": "10.0.1",
+  "dimensions_mm": [
+    45,
+    45
+  ],
+  "copper_layers": 4,
+  "footprints": 130,
+  "tracks_by_layer": {
+    "F.Cu": 672,
+    "B.Cu": 133,
+    "In2.Cu": 134
+  },
+  "vias": 178,
+  "ground_vias": 100,
+  "filled_and_capped_vias": [
+    {
+      "x_mm": 10.362,
+      "y_mm": 32.55,
+      "absolute_mm": [
+        110.362,
+        112.45
+      ],
+      "net": "GND",
+      "pads": [
+        "D18.1"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 10.362,
+      "y_mm": 25.55,
+      "absolute_mm": [
+        110.362,
+        119.45
+      ],
+      "net": "GND",
+      "pads": [
+        "D16.1"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 20.662,
+      "y_mm": 9.0,
+      "absolute_mm": [
+        120.662,
+        136.0
+      ],
+      "net": "GND",
+      "pads": [
+        "U4.2"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 41.4,
+      "y_mm": 40.7,
+      "absolute_mm": [
+        141.4,
+        104.3
+      ],
+      "net": "GND",
+      "pads": [
+        "U2.39"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 10.362,
+      "y_mm": 22.05,
+      "absolute_mm": [
+        110.362,
+        122.95
+      ],
+      "net": "GND",
+      "pads": [
+        "D15.1"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 38.15,
+      "y_mm": 13.85,
+      "absolute_mm": [
+        138.15,
+        131.15
+      ],
+      "net": "GND",
+      "pads": [
+        "U3.17"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 10.362,
+      "y_mm": 29.05,
+      "absolute_mm": [
+        110.362,
+        115.95
+      ],
+      "net": "GND",
+      "pads": [
+        "D17.1"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 10.362,
+      "y_mm": 8.05,
+      "absolute_mm": [
+        110.362,
+        136.95
+      ],
+      "net": "GND",
+      "pads": [
+        "D11.1"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 32.2,
+      "y_mm": 40.7,
+      "absolute_mm": [
+        132.199999,
+        104.3
+      ],
+      "net": "GND",
+      "pads": [
+        "U2.1"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 10.362,
+      "y_mm": 15.05,
+      "absolute_mm": [
+        110.362,
+        129.949999
+      ],
+      "net": "GND",
+      "pads": [
+        "D13.1"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 10.362,
+      "y_mm": 36.05,
+      "absolute_mm": [
+        110.362,
+        108.95
+      ],
+      "net": "GND",
+      "pads": [
+        "D19.1"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 31.8,
+      "y_mm": 28.5,
+      "absolute_mm": [
+        131.8,
+        116.5
+      ],
+      "net": "GND",
+      "pads": [
+        "U2.12"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 29.663,
+      "y_mm": 11.5,
+      "absolute_mm": [
+        129.663,
+        133.5
+      ],
+      "net": "GND",
+      "pads": [
+        "U5.2"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 25.05,
+      "y_mm": 17.338,
+      "absolute_mm": [
+        125.05,
+        127.662
+      ],
+      "net": "GND",
+      "pads": [
+        "U1.32"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 10.362,
+      "y_mm": 11.55,
+      "absolute_mm": [
+        110.362,
+        133.449999
+      ],
+      "net": "GND",
+      "pads": [
+        "D12.1"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 38.85,
+      "y_mm": 13.15,
+      "absolute_mm": [
+        138.85,
+        131.85
+      ],
+      "net": "GND",
+      "pads": [
+        "U3.17"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 22.5,
+      "y_mm": 1.375,
+      "absolute_mm": [
+        122.5,
+        143.625
+      ],
+      "net": "GND",
+      "pads": [
+        "J3.2"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 38.85,
+      "y_mm": 13.85,
+      "absolute_mm": [
+        138.85,
+        131.15
+      ],
+      "net": "GND",
+      "pads": [
+        "U3.17"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 24.55,
+      "y_mm": 9.48,
+      "absolute_mm": [
+        124.55,
+        135.52
+      ],
+      "net": "GND",
+      "pads": [
+        "C35.2"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 26.45,
+      "y_mm": 11.98,
+      "absolute_mm": [
+        126.45,
+        133.02
+      ],
+      "net": "GND",
+      "pads": [
+        "C36.2"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 26.097,
+      "y_mm": 25.316,
+      "absolute_mm": [
+        126.097,
+        119.684
+      ],
+      "net": "GND",
+      "pads": [
+        "U1.45"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 10.362,
+      "y_mm": 18.55,
+      "absolute_mm": [
+        110.362,
+        126.45
+      ],
+      "net": "GND",
+      "pads": [
+        "D14.1"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 17.45,
+      "y_mm": 9.48,
+      "absolute_mm": [
+        117.45,
+        135.52
+      ],
+      "net": "GND",
+      "pads": [
+        "C34.2"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 33.55,
+      "y_mm": 12.48,
+      "absolute_mm": [
+        133.55,
+        132.52
+      ],
+      "net": "GND",
+      "pads": [
+        "C37.2"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 38.15,
+      "y_mm": 13.15,
+      "absolute_mm": [
+        138.15,
+        131.85
+      ],
+      "net": "GND",
+      "pads": [
+        "U3.17"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 21.28,
+      "y_mm": 32.3,
+      "absolute_mm": [
+        121.28,
+        112.7
+      ],
+      "net": "GND",
+      "pads": [
+        "C14.2"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 24.5,
+      "y_mm": 14.65,
+      "absolute_mm": [
+        124.5,
+        130.35
+      ],
+      "net": "GND",
+      "pads": [
+        "C18.2"
+      ],
+      "drill_mm": 0.3
+    },
+    {
+      "x_mm": 34.766,
+      "y_mm": 9.684,
+      "absolute_mm": [
+        134.766,
+        135.316
+      ],
+      "net": "VBAT",
+      "pads": [
+        "C33.1"
+      ],
+      "drill_mm": 0.3
+    }
+  ],
+  "zones": [
+    {
+      "net": "DVDD",
+      "layer": "F.Cu",
+      "polygons": 1,
+      "area_mm2": 4.550805341885
+    },
+    {
+      "net": "GND",
+      "layer": "F.Cu",
+      "polygons": 24,
+      "area_mm2": 1173.1769904292814
+    },
+    {
+      "net": "AVDD",
+      "layer": "F.Cu",
+      "polygons": 1,
+      "area_mm2": 6.25267695612
+    },
+    {
+      "net": "GND",
+      "layer": "B.Cu",
+      "polygons": 3,
+      "area_mm2": 1646.5355460885976
+    },
+    {
+      "net": "GND",
+      "layer": "In1.Cu",
+      "polygons": 1,
+      "area_mm2": 1837.569814163383
+    }
+  ],
+  "board_sha256": "3c9ff7ff7ad7d4d5ffefc86ab4812708870c46e43e12f3ebaf3269fd08ef24cd"
+}

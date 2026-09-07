@@ -1,0 +1,256 @@
+{
+  "source_board": "D:\\workspace\\ECG12_Portable2\\ECG12_Portable2.kicad_pcb",
+  "source_sha256": "3c9ff7ff7ad7d4d5ffefc86ab4812708870c46e43e12f3ebaf3269fd08ef24cd",
+  "enabled_layers": 26,
+  "empty_layers": [
+    "F.Adhesive",
+    "B.Adhesive",
+    "User.Comments",
+    "User.Eco1",
+    "User.Eco2",
+    "Margin",
+    "User.1",
+    "User.2",
+    "User.3",
+    "User.4"
+  ],
+  "orientation": "top view, unmirrored",
+  "common_overlay": "Edge.Cuts",
+  "png_size": "1800 x 1800 nominal",
+  "layers": [
+    {
+      "index": 1,
+      "layer": "F.Cu",
+      "stem": "01_F_Cu",
+      "png": "01_F_Cu.png",
+      "pdf": "pdf/01_F_Cu.pdf",
+      "pixel_sha256": "a73511e4bc342c6fcda200fe0497166ae8605f39874e73308ec1e09cd416e71d",
+      "empty": false
+    },
+    {
+      "index": 2,
+      "layer": "In1.Cu",
+      "stem": "02_In1_Cu",
+      "png": "02_In1_Cu.png",
+      "pdf": "pdf/02_In1_Cu.pdf",
+      "pixel_sha256": "ff1a9ce79bafe51949cf391307b612aa05236abef5ed55e4c130a0c4aede24bb",
+      "empty": false
+    },
+    {
+      "index": 3,
+      "layer": "In2.Cu",
+      "stem": "03_In2_Cu",
+      "png": "03_In2_Cu.png",
+      "pdf": "pdf/03_In2_Cu.pdf",
+      "pixel_sha256": "8134de9065bc92a43f03c0eb566f7b64e0a1e009786c8b7b649cb3bdb562add4",
+      "empty": false
+    },
+    {
+      "index": 4,
+      "layer": "B.Cu",
+      "stem": "04_B_Cu",
+      "png": "04_B_Cu.png",
+      "pdf": "pdf/04_B_Cu.pdf",
+      "pixel_sha256": "c47232007bfc89c206df5989610791331d214c2a7208518b32978ab9fd8f0bf5",
+      "empty": false
+    },
+    {
+      "index": 5,
+      "layer": "F.Mask",
+      "stem": "05_F_Mask",
+      "png": "05_F_Mask.png",
+      "pdf": "pdf/05_F_Mask.pdf",
+      "pixel_sha256": "61c6b774eb278803ccbe9bde3a39ca27f5b40676eb2d4103ea0d96f4b24ec43d",
+      "empty": false
+    },
+    {
+      "index": 6,
+      "layer": "B.Mask",
+      "stem": "06_B_Mask",
+      "png": "06_B_Mask.png",
+      "pdf": "pdf/06_B_Mask.pdf",
+      "pixel_sha256": "baa375dc1a25f6cf1327f226d44ea639a3542bc18a11c552a005b5bb65fefdb7",
+      "empty": false
+    },
+    {
+      "index": 7,
+      "layer": "F.Paste",
+      "stem": "07_F_Paste",
+      "png": "07_F_Paste.png",
+      "pdf": "pdf/07_F_Paste.pdf",
+      "pixel_sha256": "be41558a919f16a7ab79535f0360ec280e510c89a16dd2cb3fdb09b17e0d1e54",
+      "empty": false
+    },
+    {
+      "index": 8,
+      "layer": "B.Paste",
+      "stem": "08_B_Paste",
+      "png": "08_B_Paste.png",
+      "pdf": "pdf/08_B_Paste.pdf",
+      "pixel_sha256": "671187fb0535f8733618b88e72a6f32bcd4ed2844d13c1fec9c50990b932d1bc",
+      "empty": false
+    },
+    {
+      "index": 9,
+      "layer": "F.Silkscreen",
+      "stem": "09_F_Silkscreen",
+      "png": "09_F_Silkscreen.png",
+      "pdf": "pdf/09_F_Silkscreen.pdf",
+      "pixel_sha256": "ea8c3d315132dd888cc5cda9a86f2d5a1246abd89a839da12d8210814025da7e",
+      "empty": false
+    },
+    {
+      "index": 10,
+      "layer": "B.Silkscreen",
+      "stem": "10_B_Silkscreen",
+      "png": "10_B_Silkscreen.png",
+      "pdf": "pdf/10_B_Silkscreen.pdf",
+      "pixel_sha256": "d022f09817b3b8103ecc9be1b095ff9a8df93908e146f131dc054c380b73327b",
+      "empty": false
+    },
+    {
+      "index": 11,
+      "layer": "F.Fab",
+      "stem": "11_F_Fab",
+      "png": "11_F_Fab.png",
+      "pdf": "pdf/11_F_Fab.pdf",
+      "pixel_sha256": "8fb1ea346060b78c2830287858e0ade839a80013cfa225b8b4019d54d026333a",
+      "empty": false
+    },
+    {
+      "index": 12,
+      "layer": "B.Fab",
+      "stem": "12_B_Fab",
+      "png": "12_B_Fab.png",
+      "pdf": "pdf/12_B_Fab.pdf",
+      "pixel_sha256": "e399749c6ea289886a9b1821350b712a42a1b888672ea268d45aba0c1c791a80",
+      "empty": false
+    },
+    {
+      "index": 13,
+      "layer": "F.Courtyard",
+      "stem": "13_F_Courtyard",
+      "png": "13_F_Courtyard.png",
+      "pdf": "pdf/13_F_Courtyard.pdf",
+      "pixel_sha256": "811a496486b2fe38fc7b4f73dcf988b0069a4b76757b04686bef30d511e2cb83",
+      "empty": false
+    },
+    {
+      "index": 14,
+      "layer": "B.Courtyard",
+      "stem": "14_B_Courtyard",
+      "png": "14_B_Courtyard.png",
+      "pdf": "pdf/14_B_Courtyard.pdf",
+      "pixel_sha256": "972815a02d89f3ece200459e8ca1f68a9ff7b762729a9dcbd2269618b3df8c51",
+      "empty": false
+    },
+    {
+      "index": 15,
+      "layer": "Edge.Cuts",
+      "stem": "15_Edge_Cuts",
+      "png": "15_Edge_Cuts.png",
+      "pdf": "pdf/15_Edge_Cuts.pdf",
+      "pixel_sha256": "7b992761c5fbcca7b9b270c04d07957884f7549991e01b0a9b2c2be2e8350e8b",
+      "empty": false
+    },
+    {
+      "index": 16,
+      "layer": "F.Adhesive",
+      "stem": "16_F_Adhesive",
+      "png": "16_F_Adhesive.png",
+      "pdf": "pdf/16_F_Adhesive.pdf",
+      "pixel_sha256": "7b992761c5fbcca7b9b270c04d07957884f7549991e01b0a9b2c2be2e8350e8b",
+      "empty": true
+    },
+    {
+      "index": 17,
+      "layer": "B.Adhesive",
+      "stem": "17_B_Adhesive",
+      "png": "17_B_Adhesive.png",
+      "pdf": "pdf/17_B_Adhesive.pdf",
+      "pixel_sha256": "7b992761c5fbcca7b9b270c04d07957884f7549991e01b0a9b2c2be2e8350e8b",
+      "empty": true
+    },
+    {
+      "index": 18,
+      "layer": "User.Drawings",
+      "stem": "18_User_Drawings",
+      "png": "18_User_Drawings.png",
+      "pdf": "pdf/18_User_Drawings.pdf",
+      "pixel_sha256": "e760adc2bb05e8220faad78e9402f1d485781550cf16d8a42c9bde7a12c06021",
+      "empty": false
+    },
+    {
+      "index": 19,
+      "layer": "User.Comments",
+      "stem": "19_User_Comments",
+      "png": "19_User_Comments.png",
+      "pdf": "pdf/19_User_Comments.pdf",
+      "pixel_sha256": "7b992761c5fbcca7b9b270c04d07957884f7549991e01b0a9b2c2be2e8350e8b",
+      "empty": true
+    },
+    {
+      "index": 20,
+      "layer": "User.Eco1",
+      "stem": "20_User_Eco1",
+      "png": "20_User_Eco1.png",
+      "pdf": "pdf/20_User_Eco1.pdf",
+      "pixel_sha256": "7b992761c5fbcca7b9b270c04d07957884f7549991e01b0a9b2c2be2e8350e8b",
+      "empty": true
+    },
+    {
+      "index": 21,
+      "layer": "User.Eco2",
+      "stem": "21_User_Eco2",
+      "png": "21_User_Eco2.png",
+      "pdf": "pdf/21_User_Eco2.pdf",
+      "pixel_sha256": "7b992761c5fbcca7b9b270c04d07957884f7549991e01b0a9b2c2be2e8350e8b",
+      "empty": true
+    },
+    {
+      "index": 22,
+      "layer": "Margin",
+      "stem": "22_Margin",
+      "png": "22_Margin.png",
+      "pdf": "pdf/22_Margin.pdf",
+      "pixel_sha256": "7b992761c5fbcca7b9b270c04d07957884f7549991e01b0a9b2c2be2e8350e8b",
+      "empty": true
+    },
+    {
+      "index": 23,
+      "layer": "User.1",
+      "stem": "23_User_1",
+      "png": "23_User_1.png",
+      "pdf": "pdf/23_User_1.pdf",
+      "pixel_sha256": "7b992761c5fbcca7b9b270c04d07957884f7549991e01b0a9b2c2be2e8350e8b",
+      "empty": true
+    },
+    {
+      "index": 24,
+      "layer": "User.2",
+      "stem": "24_User_2",
+      "png": "24_User_2.png",
+      "pdf": "pdf/24_User_2.pdf",
+      "pixel_sha256": "7b992761c5fbcca7b9b270c04d07957884f7549991e01b0a9b2c2be2e8350e8b",
+      "empty": true
+    },
+    {
+      "index": 25,
+      "layer": "User.3",
+      "stem": "25_User_3",
+      "png": "25_User_3.png",
+      "pdf": "pdf/25_User_3.pdf",
+      "pixel_sha256": "7b992761c5fbcca7b9b270c04d07957884f7549991e01b0a9b2c2be2e8350e8b",
+      "empty": true
+    },
+    {
+      "index": 26,
+      "layer": "User.4",
+      "stem": "26_User_4",
+      "png": "26_User_4.png",
+      "pdf": "pdf/26_User_4.pdf",
+      "pixel_sha256": "7b992761c5fbcca7b9b270c04d07957884f7549991e01b0a9b2c2be2e8350e8b",
+      "empty": true
+    }
+  ]
+}

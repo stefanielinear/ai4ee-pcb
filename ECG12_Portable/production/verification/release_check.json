@@ -1,0 +1,16 @@
+{
+  "revision": "B",
+  "independent_directory_reopen": "passed",
+  "ERC_errors": 0,
+  "ERC_warnings": 6,
+  "DRC_violations": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "footprints": 130,
+  "purchasable_parts": 110,
+  "testpoints": 14,
+  "fiducials": 6,
+  "filled_capped_vias": 28,
+  "tested_version": "KiCad 10.0.1",
+  "medical_or_bench_validation": false
+}
